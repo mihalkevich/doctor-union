@@ -1,0 +1,31 @@
+name: IndexNow
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    env:
+      HOST: doctor-union.onrender.com
+      KEY: 9ee906407da18e492bad6cf8bc35a84b
+    steps:
+      - uses: actions/checkout@v4
+      - name: Wait for Render to deploy
+        run: sleep 90
+      - name: Submit sitemap URLs to IndexNow
+        run: |
+          python3 - <<'PY' > payload.json
+          import json, os, re
+          host, key = os.environ["HOST"], os.environ["KEY"]
+          urls = re.findall(r"<loc>(.*?)</loc>", open("sitemap.xml").read())
+          urls = [u.replace("https://doctor-union.onrender.com", f"https://{host}") for u in urls]
+          print(json.dumps({"host": host, "key": key, "keyLocation": f"https://{host}/{key}.txt", "urlList": urls}))
+          PY
+          cat payload.json
+          code=$(curl -s -o resp.txt -w '%{http_code}' -X POST https://api.indexnow.org/indexnow \
+            -H 'Content-Type: application/json; charset=utf-8' --data @payload.json)
+          echo "IndexNow HTTP $code"; cat resp.txt
+          case "$code" in 200|202) ;; *) exit 1;; esac
