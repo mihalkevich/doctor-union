@@ -225,7 +225,7 @@ input,select{width:100%;padding:15px 16px;border-radius:14px;border:1px solid va
 /* footer */
 footer{border-top:1px solid var(--line);padding-block:56px 40px}
 .foot{display:grid;gap:36px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
-.foot h4{font:500 12px/1 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 14px}
+.foot h4,.foot .foot-h{font:500 12px/1 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 14px}
 .foot ul{list-style:none;margin:0;padding:0;display:grid;gap:10px;font-size:15px}
 .foot a{text-decoration:none;color:var(--fg)}
 .foot a:hover{color:var(--accent)}
@@ -272,6 +272,8 @@ a.art{text-decoration:none;color:inherit;transition:background .25s}
 a.art:hover{background:var(--bg-3)}
 .art p{color:var(--muted);font-size:15px}
 .wide{max-width:var(--wrap)}
+.related{margin-top:3em;padding-top:2em;border-top:1px solid var(--line)}
+.related .cards{margin-top:16px}
 .donate{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:20px;padding:28px;border-radius:var(--r);background:var(--bg-2);border:1px solid color-mix(in srgb,var(--accent) 45%,transparent)}
 .donate>div{display:grid;gap:10px;max-width:46ch;min-width:0}
 .donate p{font-size:15px!important;color:var(--muted);margin:0}
