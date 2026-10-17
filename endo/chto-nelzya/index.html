@@ -20,10 +20,11 @@
 <link rel="preload" href="/fonts/Unbounded-cyrillic-500.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/Onest-cyrillic-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/fonts/fonts.css?v=dd9bc35d99">
-<link rel="stylesheet" href="/assets/site.css?v=229c7a02fd">
+<link rel="stylesheet" href="/assets/site.css?v=d12cdc6c89">
 <script type="application/ld+json">[{"@context": "https://schema.org", "@type": "MedicalWebPage", "name": "Что нельзя делать при эндометриозе: баня, загар, грелка, массаж", "headline": "Что нельзя делать при эндометриозе: баня, загар, грелка, массаж", "description": "Можно ли грелку, баню, сауну, загар и массаж при эндометриозе: что говорят ESHRE, NICE и исследования, где данных нет и чего точно не стоит делать.", "url": "https://doctor-union.onrender.com/endo/chto-nelzya/", "inLanguage": "ru", "about": {"@type": "MedicalCondition", "name": "Эндометриоз"}, "audience": {"@type": "PeopleAudience", "audienceType": "Patient"}, "datePublished": "2026-10-18", "dateModified": "2026-10-18", "author": {"@type": "Organization", "name": "Редакция «Эндо без тайн»", "parentOrganization": {"@id": "https://doctor-union.onrender.com/#org"}}, "publisher": {"@id": "https://doctor-union.onrender.com/#org"}, "image": "https://doctor-union.onrender.com/img/endo/chto-nelzya_og.jpg", "isPartOf": {"@type": "WebPage", "url": "https://doctor-union.onrender.com/endo/"}}, {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Doctor Union", "item": "https://doctor-union.onrender.com/"}, {"@type": "ListItem", "position": 2, "name": "Эндо без тайн", "item": "https://doctor-union.onrender.com/endo/"}, {"@type": "ListItem", "position": 3, "name": "Что нельзя делать при эндометриозе: баня, загар, грелка, массаж", "item": "https://doctor-union.onrender.com/endo/chto-nelzya/"}]}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Правда, что при эндометриозе нельзя греться?", "acceptedAnswer": {"@type": "Answer", "text": "Нет, такого запрета в рекомендациях ESHRE и NICE нет. Тепло облегчает менструальную боль, хотя исследования касались в основном болезненных месячных без эндометриоза. Ориентируйтесь на самочувствие и не держите грелку часами."}}, {"@type": "Question", "name": "Можно ли в баню во время месячных?", "acceptedAnswer": {"@type": "Answer", "text": "Исследований на эту тему нет. Если в жаре во время месячных вам становится хуже, появляется слабость или кровотечение усиливается, лучше отложить баню."}}, {"@type": "Question", "name": "Можно ли загорать, если я принимаю гормоны?", "acceptedAnswer": {"@type": "Answer", "text": "Прямого запрета нет. Прочитайте инструкцию к своему лекарству и спросите врача, если сомневаетесь. От солнца защищайтесь по общим правилам."}}, {"@type": "Question", "name": "Можно ли массаж при эндометриозе?", "acceptedAnswer": {"@type": "Answer", "text": "Лёгкий массаж и поглаживание обычно не запрещены. Глубокий массаж живота при сильной боли или после операции обсудите с врачом."}}, {"@type": "Question", "name": "Есть ли продукты, которые нельзя есть при эндометриозе?", "acceptedAnswer": {"@type": "Answer", "text": "Доказанного списка нет. ESHRE не даёт рекомендаций по конкретной диете. Подробнее — в статье о питании."}}, {"@type": "Question", "name": "Что самое вредное при эндометриозе?", "acceptedAnswer": {"@type": "Answer", "text": "Терпеть сильную боль годами и бросать лечение без разговора с врачом. Это важнее, чем баня или загар."}}]}]</script>
 </head>
 <body>
+<a class="skip" href="#content">Перейти к содержанию</a>
 <header class="nav">
   <div class="wrap">
     <a class="logo" href="/" aria-label="Doctor Union, на главную">
@@ -32,7 +33,8 @@
       </span>
       Doctor Union
     </a>
-    <nav class="nav-links" aria-label="Разделы">
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav-links" hidden>Меню</button>
+    <nav class="nav-links" id="nav-links" aria-label="Разделы">
       <a href="/endo/">Эндо без тайн</a>
       <a href="/#mission">Миссия</a>
       <a href="/#union">Кто в союзе</a>
@@ -40,17 +42,17 @@
       <a href="/#join">Участие</a>
       <a href="/blagotvoritelnost/">Поддержать</a>
     </nav>
-    <a class="btn btn-primary" href="/#contact">Вступить <span class="arr">→</span></a>
+    <a class="btn btn-primary" href="/#contact">Вступить <span class="arr" aria-hidden="true">→</span></a>
   </div>
 </header>
-<main>
+<main id="content" tabindex="-1">
   <div class="wrap">
     <header class="page-head">
       <nav class="crumbs" aria-label="Хлебные крошки"><a href="/">Doctor Union</a><span aria-hidden="true">/</span><a href="/endo/">Эндо без тайн</a><span aria-hidden="true">/</span><span aria-current="page">Что нельзя делать при эндометриозе: баня, загар, грелка, массаж</span></nav>
       <div class="meta-line"><span class="badge live">Эндо без тайн</span><span class="badge">обновлено <time datetime="2026-10-18">18 октября 2026</time></span><span class="badge">проверка врачом: в процессе</span></div>
       <h1>Что нельзя делать при эндометриозе: баня, загар, грелка, массаж</h1>
     </header>
-    <div class="cover"><picture><source type="image/webp" srcset="/img/endo/chto-nelzya_16x9_640.webp?v=3cc73f27 640w, /img/endo/chto-nelzya_16x9_1024.webp?v=bff048ca 1024w, /img/endo/chto-nelzya_16x9_1600.webp?v=88c6ac65 1600w" sizes="(max-width:760px) 100vw, 760px"><img src="/img/endo/chto-nelzya_16x9.jpg?v=27490bbe" alt="Что нельзя делать при эндометриозе: баня, загар, грелка, массаж: грелка в вязаном чехле на полотенце и чашка чая на деревянном табурете у окна" fetchpriority="high" width="1600" height="900" decoding="async"></picture></div>
+    <div class="cover"><picture><source type="image/webp" srcset="/img/endo/chto-nelzya_16x9_640.webp?v=3cc73f27 640w, /img/endo/chto-nelzya_16x9_1024.webp?v=bff048ca 1024w, /img/endo/chto-nelzya_16x9_1600.webp?v=88c6ac65 1600w" sizes="(max-width:760px) 100vw, 760px"><img src="/img/endo/chto-nelzya_16x9.jpg?v=27490bbe" alt="Грелка в вязаном чехле на полотенце и чашка чая на деревянном табурете у окна" fetchpriority="high" width="1600" height="900" decoding="async"></picture></div>
     <article class="prose">
 <p><strong>Коротко.</strong> Строгого списка запретов при эндометриозе нет: ни ESHRE, ни NICE не запрещают баню, сауну, загар, грелку или массаж. Надёжных исследований о том, вредят они или помогают именно при эндометриозе, тоже почти нет, поэтому главный ориентир — ваше самочувствие и советы вашего врача. Точно не стоит терпеть сильную боль, бросать назначенное лечение без разговора с гинекологом и заменять лечение травами или добавками.</p>
 <details class="toc" open><summary>Содержание</summary><nav aria-label="Содержание"><ol><li><a href="#otkuda-stolko-zapretov">Откуда столько запретов?</a></li><li><a href="#mozhno-li-grelku-na-zhivot">Можно ли грелку на живот?</a></li><li><a href="#mozhno-li-v-banyu-i-saunu">Можно ли в баню и сауну?</a></li><li><a href="#mozhno-li-zagorat-i-hodit-v-solyariy">Можно ли загорать и ходить в солярий?</a></li><li><a href="#mozhno-li-massazh-zhivota-i-poyasnitsy">Можно ли массаж живота и поясницы?</a></li><li><a href="#a-sport-eda-kofe-kurenie">А спорт, еда, кофе, курение?</a></li><li><a href="#chto-izvestno-svodnaya-tablitsa">Что известно: сводная таблица</a></li><li><a href="#chego-deystvitelno-ne-stoit-delat">Чего действительно не стоит делать?</a></li><li><a href="#kogda-srochno-k-vrachu">Когда срочно к врачу</a></li><li><a href="#chto-sprosit-u-vracha">Что спросить у врача</a></li><li><a href="#chastye-voprosy">Частые вопросы</a></li></ol></nav></details>
@@ -88,48 +90,48 @@
 <p><strong>Кофе и алкоголь.</strong> Надёжных данных о кофе при эндометриозе мы не нашли. ESHRE в разделе о профилактике называет здоровый образ жизни с меньшим количеством алкоголя и регулярной активностью, но прямых доказательств, что это предотвращает эндометриоз, нет.</p>
 <p><strong>Курение.</strong> NHS пишет, что отказ от курения и меньше алкоголя может облегчить боль при месячных.</p>
 <h2 id="chto-izvestno-svodnaya-tablitsa">Что известно: сводная таблица</h2>
-<div class="table-wrap"><table>
+<div class="table-wrap" role="region" aria-label="Таблица: Что известно: сводная таблица" tabindex="0"><table><caption class="sr-only">Что известно: сводная таблица</caption>
 <thead>
 <tr>
-<th>Что</th>
-<th>Запрет в рекомендациях</th>
-<th>Что известно</th>
-<th>Как поступить</th>
+<th scope="col">Что</th>
+<th scope="col">Запрет в рекомендациях</th>
+<th scope="col">Что известно</th>
+<th scope="col">Как поступить</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Грелка, тёплая ванна</td>
+<th scope="row">Грелка, тёплая ванна</th>
 <td>Нет</td>
 <td>Тепло облегчает менструальную боль, но данные о первичной дисменорее и низкого качества</td>
 <td>Можно, через ткань, не часами и не во сне</td>
 </tr>
 <tr>
-<td>Баня, сауна</td>
+<th scope="row">Баня, сауна</th>
 <td>Нет</td>
 <td>Исследований при эндометриозе нет</td>
 <td>По самочувствию; после операции — по совету хирурга</td>
 </tr>
 <tr>
-<td>Загар</td>
+<th scope="row">Загар</th>
 <td>Нет</td>
 <td>Связь с эндометриозом не изучена</td>
 <td>Защита от солнца по общим правилам</td>
 </tr>
 <tr>
-<td>Массаж</td>
+<th scope="row">Массаж</th>
 <td>Нет</td>
 <td>Специальных данных мало; NHS при болезненных месячных советует массаж живота и спины</td>
 <td>Мягко; глубокий массаж — после разговора с врачом</td>
 </tr>
 <tr>
-<td>Спорт</td>
+<th scope="row">Спорт</th>
 <td>Нет</td>
 <td>Польза для здоровья есть, влияние на боль не доказано</td>
 <td>Двигаться в комфортном темпе</td>
 </tr>
 <tr>
-<td>Травы и добавки вместо лечения</td>
+<th scope="row">Травы и добавки вместо лечения</th>
 <td>NICE: доказательства не поддерживают китайские травы и добавки</td>
 <td>Доказательств пользы нет</td>
 <td>Не заменять ими лечение</td>
@@ -144,7 +146,7 @@
 <li><strong>Заменять лечение травами, добавками или «чистками».</strong> NICE отмечает, что доказательства не поддерживают традиционную китайскую медицину, китайские травы и добавки для лечения эндометриоза.</li>
 </ol>
 <h2 id="kogda-srochno-k-vrachu">Когда срочно к врачу</h2>
-<p>Обратитесь за неотложной помощью (<a class="tel" href="tel:103">103</a> или <a class="tel" href="tel:112">112</a>), если:</p>
+<p>Обратитесь за неотложной помощью (<a class="tel" href="tel:103" aria-label="Позвонить 103, скорая медицинская помощь">103</a> или <a class="tel" href="tel:112" aria-label="Позвонить 112, единый номер экстренных служб">112</a>), если:</p>
 <ul>
 <li>появилась внезапная очень сильная боль в животе;</li>
 <li>кровотечение очень сильное, кружится голова, вы теряете сознание;</li>
@@ -177,19 +179,19 @@
 Терпеть сильную боль годами и бросать лечение без разговора с врачом. Это важнее, чем баня или загар.</p>
 <h2 id="istochniki">Источники</h2>
 <ul>
-<li>ESHRE. <a href="https://pubmed.ncbi.nlm.nih.gov/35350465/" target="_blank" rel="noopener">Guideline: endometriosis, 2022</a> (<a href="https://www.bsge.org.uk/wp-content/uploads/2022/02/ESHRE-GUIDELINE-ENDOMETRIOSIS-2022.pdf" target="_blank" rel="noopener">полный текст, PDF</a>): рекомендация 38 (немедикаментозные подходы), раздел о первичной профилактике</li>
-<li>NICE. <a href="https://www.nice.org.uk/guidance/ng73/chapter/Recommendations" target="_blank" rel="noopener">Endometriosis: diagnosis and management (NG73)</a></li>
-<li>ВОЗ. <a href="https://www.who.int/ru/news-room/fact-sheets/detail/endometriosis" target="_blank" rel="noopener">Эндометриоз: информационный бюллетень</a></li>
-<li>ВОЗ. <a href="https://www.who.int/ru/news-room/fact-sheets/detail/physical-activity" target="_blank" rel="noopener">Физическая активность: информационный бюллетень</a></li>
-<li>NHS. <a href="https://www.nhs.uk/conditions/period-pain/" target="_blank" rel="noopener">Period pain</a></li>
-<li>Yuan D. et al. <a href="https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1730505/full" target="_blank" rel="noopener">Heat therapy for primary dysmenorrhea: a systematic review and meta-analysis</a>. Frontiers in Medicine, 2025</li>
-<li>Smith TM, Nambudiri VE. <a href="https://www.ccjm.org/content/85/2/96.full.pdf" target="_blank" rel="noopener">Erythema ab igne</a>. Cleveland Clinic Journal of Medicine, 2018</li>
+<li>ESHRE. <a href="https://pubmed.ncbi.nlm.nih.gov/35350465/" target="_blank" rel="noopener" lang="en">Guideline: endometriosis, 2022<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a> (<a href="https://www.bsge.org.uk/wp-content/uploads/2022/02/ESHRE-GUIDELINE-ENDOMETRIOSIS-2022.pdf" target="_blank" rel="noopener">полный текст, PDF<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a>): рекомендация 38 (немедикаментозные подходы), раздел о первичной профилактике</li>
+<li>NICE. <a href="https://www.nice.org.uk/guidance/ng73/chapter/Recommendations" target="_blank" rel="noopener" lang="en">Endometriosis: diagnosis and management (NG73)<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a></li>
+<li>ВОЗ. <a href="https://www.who.int/ru/news-room/fact-sheets/detail/endometriosis" target="_blank" rel="noopener">Эндометриоз: информационный бюллетень<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a></li>
+<li>ВОЗ. <a href="https://www.who.int/ru/news-room/fact-sheets/detail/physical-activity" target="_blank" rel="noopener">Физическая активность: информационный бюллетень<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a></li>
+<li>NHS. <a href="https://www.nhs.uk/conditions/period-pain/" target="_blank" rel="noopener" lang="en">Period pain<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a></li>
+<li>Yuan D. et al. <a href="https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1730505/full" target="_blank" rel="noopener" lang="en">Heat therapy for primary dysmenorrhea: a systematic review and meta-analysis<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a>. Frontiers in Medicine, 2025</li>
+<li>Smith TM, Nambudiri VE. <a href="https://www.ccjm.org/content/85/2/96.full.pdf" target="_blank" rel="noopener" lang="en">Erythema ab igne<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a>. Cleveland Clinic Journal of Medicine, 2018</li>
 </ul>
 <p>Как мы готовим статьи: <a href="/endo/kak-my-pishem/">Как мы пишем</a>.</p>
 <hr />
 <p><em>Обновлено 18 октября 2026. Подготовила редакция «Эндо без тайн» по рекомендациям ESHRE, NICE и ВОЗ. Медицинская проверка врачом: в процессе.</em></p>
 <p><em>Статья носит информационный характер и не заменяет консультацию врача. Доктор Анна — AI-персонаж проекта «Эндо без тайн», а не живой врач.</em></p>
-<section class="related"><h2>Читайте также</h2><div class="cards"><a class="art" href="/endo/bol-pri-mesyachnyh/"><div class="tile"><picture><source type="image/webp" srcset="/img/endo/bol-pri-mesyachnyh_16x9_640.webp?v=6158543f 640w, /img/endo/bol-pri-mesyachnyh_16x9_1024.webp?v=e2af7c68 1024w, /img/endo/bol-pri-mesyachnyh_16x9_1600.webp?v=e711b7f0 1600w" sizes="(max-width:700px) 92vw, 420px"><img src="/img/endo/bol-pri-mesyachnyh_16x9.jpg?v=018e824a" alt="Сильная боль при месячных — это норма или эндометриоз?: женщина лежит на диване, держась за живот" loading="lazy" width="1600" height="900" decoding="async"></picture></div><div class="body"><h3>Сильная боль при месячных — это норма или эндометриоз?</h3><p>Боль, из-за которой вы пропускаете учёбу или работу, — не норма. 7 признаков эндометриоза, тест на 2 минуты и что сказать гинекологу.</p></div></a><a class="art" href="/endo/pitanie/"><div class="tile"><picture><source type="image/webp" srcset="/img/endo/pitanie_16x9_640.webp?v=71150276 640w, /img/endo/pitanie_16x9_1024.webp?v=709b5d91 1024w, /img/endo/pitanie_16x9_1600.webp?v=c7cdd65d 1600w" sizes="(max-width:700px) 92vw, 420px"><img src="/img/endo/pitanie_16x9.jpg?v=9262e779" alt="Питание при эндометриозе: что доказано, а что нет: миска с крупой и овощами на льняной скатерти" loading="lazy" width="1600" height="900" decoding="async"></picture></div><div class="body"><h3>Питание при эндометриозе: что доказано, а что нет</h3><p>Есть ли диета при эндометриозе: что говорят ESHRE и исследования о глютене, омега-3, low-FODMAP, алкоголе и кофе. Честно о слабых доказательствах.</p></div></a><a class="art" href="/endo/sport/"><div class="tile"><picture><source type="image/webp" srcset="/img/endo/sport_16x9_640.webp?v=c1a514ef 640w, /img/endo/sport_16x9_1024.webp?v=562e0e81 1024w, /img/endo/sport_16x9_1600.webp?v=c6fa6a23 1600w" sizes="(max-width:700px) 92vw, 420px"><img src="/img/endo/sport_16x9.jpg?v=931e16d2" alt="Эндометриоз и спорт: можно ли заниматься и что помогает: женщина делает растяжку на коврике в светлой комнате" loading="lazy" width="1600" height="900" decoding="async"></picture></div><div class="body"><h3>Эндометриоз и спорт: можно ли заниматься и что помогает</h3><p>Можно ли заниматься спортом при эндометриозе: что говорят ESHRE и обзоры исследований, как начать, если болит, и когда остановиться.</p></div></a></div></section>
+<section class="related"><h2>Читайте также</h2><div class="cards"><a class="art" href="/endo/bol-pri-mesyachnyh/"><div class="tile"><picture><source type="image/webp" srcset="/img/endo/bol-pri-mesyachnyh_16x9_640.webp?v=6158543f 640w, /img/endo/bol-pri-mesyachnyh_16x9_1024.webp?v=e2af7c68 1024w, /img/endo/bol-pri-mesyachnyh_16x9_1600.webp?v=e711b7f0 1600w" sizes="(max-width:700px) 92vw, 420px"><img src="/img/endo/bol-pri-mesyachnyh_16x9.jpg?v=018e824a" alt="" loading="lazy" width="1600" height="900" decoding="async"></picture></div><div class="body"><h3>Сильная боль при месячных — это норма или эндометриоз?</h3><p>Боль, из-за которой вы пропускаете учёбу или работу, — не норма. 7 признаков эндометриоза, тест на 2 минуты и что сказать гинекологу.</p></div></a><a class="art" href="/endo/pitanie/"><div class="tile"><picture><source type="image/webp" srcset="/img/endo/pitanie_16x9_640.webp?v=71150276 640w, /img/endo/pitanie_16x9_1024.webp?v=709b5d91 1024w, /img/endo/pitanie_16x9_1600.webp?v=c7cdd65d 1600w" sizes="(max-width:700px) 92vw, 420px"><img src="/img/endo/pitanie_16x9.jpg?v=9262e779" alt="" loading="lazy" width="1600" height="900" decoding="async"></picture></div><div class="body"><h3>Питание при эндометриозе: что доказано, а что нет</h3><p>Есть ли диета при эндометриозе: что говорят ESHRE и исследования о глютене, омега-3, low-FODMAP, алкоголе и кофе. Честно о слабых доказательствах.</p></div></a><a class="art" href="/endo/sport/"><div class="tile"><picture><source type="image/webp" srcset="/img/endo/sport_16x9_640.webp?v=c1a514ef 640w, /img/endo/sport_16x9_1024.webp?v=562e0e81 1024w, /img/endo/sport_16x9_1600.webp?v=c6fa6a23 1600w" sizes="(max-width:700px) 92vw, 420px"><img src="/img/endo/sport_16x9.jpg?v=931e16d2" alt="" loading="lazy" width="1600" height="900" decoding="async"></picture></div><div class="body"><h3>Эндометриоз и спорт: можно ли заниматься и что помогает</h3><p>Можно ли заниматься спортом при эндометриозе: что говорят ESHRE и обзоры исследований, как начать, если болит, и когда остановиться.</p></div></a></div></section>
 
     </article>
   </div>
@@ -212,5 +214,6 @@
     <div class="big-word" aria-hidden="true">Doctor Union</div>
   </div>
 </footer>
+<script>(function(){var b=document.querySelector(".menu-btn"),n=document.getElementById("nav-links");if(!b||!n)return;b.hidden=false;function set(o){b.setAttribute("aria-expanded",o?"true":"false");n.classList.toggle("open",o)}b.addEventListener("click",function(){set(b.getAttribute("aria-expanded")!=="true")});n.addEventListener("click",function(e){if(e.target.closest("a"))set(false)});document.addEventListener("keydown",function(e){if(e.key==="Escape"&&n.classList.contains("open")){set(false);b.focus()}})})();</script>
 </body>
 </html>

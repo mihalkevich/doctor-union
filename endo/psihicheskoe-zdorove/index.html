@@ -20,10 +20,11 @@
 <link rel="preload" href="/fonts/Unbounded-cyrillic-500.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/Onest-cyrillic-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/fonts/fonts.css?v=dd9bc35d99">
-<link rel="stylesheet" href="/assets/site.css?v=229c7a02fd">
+<link rel="stylesheet" href="/assets/site.css?v=d12cdc6c89">
 <script type="application/ld+json">[{"@context": "https://schema.org", "@type": "MedicalWebPage", "name": "Эндометриоз и психическое здоровье: тревога и депрессия", "headline": "Эндометриоз и психическое здоровье: тревога и депрессия", "description": "Почему при эндометриозе чаще бывают тревога и депрессия, почему это не «всё в голове», когда идти к психотерапевту и где найти срочную помощь.", "url": "https://doctor-union.onrender.com/endo/psihicheskoe-zdorove/", "inLanguage": "ru", "about": {"@type": "MedicalCondition", "name": "Эндометриоз"}, "audience": {"@type": "PeopleAudience", "audienceType": "Patient"}, "datePublished": "2026-10-16", "dateModified": "2026-10-16", "author": {"@type": "Organization", "name": "Редакция «Эндо без тайн»", "parentOrganization": {"@id": "https://doctor-union.onrender.com/#org"}}, "publisher": {"@id": "https://doctor-union.onrender.com/#org"}, "image": "https://doctor-union.onrender.com/img/endo/psihicheskoe-zdorove_og.jpg", "isPartOf": {"@type": "WebPage", "url": "https://doctor-union.onrender.com/endo/"}}, {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Doctor Union", "item": "https://doctor-union.onrender.com/"}, {"@type": "ListItem", "position": 2, "name": "Эндо без тайн", "item": "https://doctor-union.onrender.com/endo/"}, {"@type": "ListItem", "position": 3, "name": "Эндометриоз и психическое здоровье: тревога и депрессия", "item": "https://doctor-union.onrender.com/endo/psihicheskoe-zdorove/"}]}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Может ли эндометриоз вызвать депрессию?", "acceptedAnswer": {"@type": "Answer", "text": "Эндометриоз связан с более частыми симптомами депрессии и тревоги. По данным мета-анализов, главную роль играет хроническая боль. Это не значит, что депрессия будет у всех, но если настроение ухудшилось, стоит сказать об этом врачу."}}, {"@type": "Question", "name": "Правда ли, что эндометриоз — это психосоматика?", "acceptedAnswer": {"@type": "Answer", "text": "Нет. Эндометриоз — болезнь, при которой ткань, похожая на слизистую матки, растёт за её пределами. Боль при нём настоящая. Тревога и депрессия чаще возникают как следствие боли, а не как её причина."}}, {"@type": "Question", "name": "К кому идти: к психологу, психотерапевту или психиатру?", "acceptedAnswer": {"@type": "Answer", "text": "Психолог помогает разговором, но не ставит диагнозы и не назначает лекарства. Психотерапевт и психиатр — врачи: они могут оценить, есть ли депрессия или тревожное расстройство, и подобрать лечение. Если симптомы держатся дольше двух недель, начните с врача."}}, {"@type": "Question", "name": "Поможет ли психотерапия уменьшить боль?", "acceptedAnswer": {"@type": "Answer", "text": "Психотерапия не лечит сам эндометриоз. Небольшие исследования показывают, что психологическая помощь может улучшить настроение и качество жизни, а иногда немного облегчить боль. Данных пока мало, поэтому она дополняет лечение у гинеколога, а не заменяет его."}}, {"@type": "Question", "name": "Можно ли пить антидепрессанты при эндометриозе?", "acceptedAnswer": {"@type": "Answer", "text": "Это решает врач с учётом вашего состояния и другого лечения. По ВОЗ, при умеренной и тяжёлой депрессии психологическое лечение может сочетаться с антидепрессантами. Не начинайте и не отменяйте их самостоятельно, а вопросы о побочных эффектах обсуждайте с врачом."}}]}]</script>
 </head>
 <body>
+<a class="skip" href="#content">Перейти к содержанию</a>
 <header class="nav">
   <div class="wrap">
     <a class="logo" href="/" aria-label="Doctor Union, на главную">
@@ -32,7 +33,8 @@
       </span>
       Doctor Union
     </a>
-    <nav class="nav-links" aria-label="Разделы">
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav-links" hidden>Меню</button>
+    <nav class="nav-links" id="nav-links" aria-label="Разделы">
       <a href="/endo/">Эндо без тайн</a>
       <a href="/#mission">Миссия</a>
       <a href="/#union">Кто в союзе</a>
@@ -40,47 +42,47 @@
       <a href="/#join">Участие</a>
       <a href="/blagotvoritelnost/">Поддержать</a>
     </nav>
-    <a class="btn btn-primary" href="/#contact">Вступить <span class="arr">→</span></a>
+    <a class="btn btn-primary" href="/#contact">Вступить <span class="arr" aria-hidden="true">→</span></a>
   </div>
 </header>
-<main>
+<main id="content" tabindex="-1">
   <div class="wrap">
     <header class="page-head">
       <nav class="crumbs" aria-label="Хлебные крошки"><a href="/">Doctor Union</a><span aria-hidden="true">/</span><a href="/endo/">Эндо без тайн</a><span aria-hidden="true">/</span><span aria-current="page">Эндометриоз и психическое здоровье: тревога и депрессия</span></nav>
       <div class="meta-line"><span class="badge live">Эндо без тайн</span><span class="badge">обновлено <time datetime="2026-10-16">16 октября 2026</time></span><span class="badge">проверка врачом: в процессе</span></div>
       <h1>Эндометриоз и психическое здоровье: тревога и депрессия</h1>
     </header>
-    <div class="cover"><picture><source type="image/webp" srcset="/img/endo/psihicheskoe-zdorove_16x9_640.webp?v=f330f86e 640w, /img/endo/psihicheskoe-zdorove_16x9_1024.webp?v=6b06bd65 1024w, /img/endo/psihicheskoe-zdorove_16x9_1600.webp?v=952cf873 1600w" sizes="(max-width:760px) 100vw, 760px"><img src="/img/endo/psihicheskoe-zdorove_16x9.jpg?v=f5b22a2a" alt="Эндометриоз и психическое здоровье: тревога и депрессия: две улыбающиеся женщины сидят на скамейке в парке" fetchpriority="high" width="1600" height="900" decoding="async"></picture></div>
+    <div class="cover"><picture><source type="image/webp" srcset="/img/endo/psihicheskoe-zdorove_16x9_640.webp?v=f330f86e 640w, /img/endo/psihicheskoe-zdorove_16x9_1024.webp?v=6b06bd65 1024w, /img/endo/psihicheskoe-zdorove_16x9_1600.webp?v=952cf873 1600w" sizes="(max-width:760px) 100vw, 760px"><img src="/img/endo/psihicheskoe-zdorove_16x9.jpg?v=f5b22a2a" alt="Две улыбающиеся женщины сидят на скамейке в парке" fetchpriority="high" width="1600" height="900" decoding="async"></picture></div>
     <article class="prose">
 <p><strong>Коротко.</strong> Да, при эндометриозе тревога и депрессия встречаются чаще, чем у женщин без него: это показывают систематические обзоры и мета-анализы. Главная связь, по данным исследований, идёт через хроническую боль, а не через «слабый характер» или «внушение». Это не «всё в голове»: боль настоящая, а её влияние на настроение можно и нужно лечить вместе с самим эндометриозом.</p>
-<div class="callout urgent" role="note"><p><strong>Если вам очень плохо прямо сейчас</strong> и появились мысли причинить себе вред, звоните <a class="tel" href="tel:103"><strong>103</strong></a> (скорая помощь) или <a class="tel" href="tel:112"><strong>112</strong></a>. Номера телефонов доверия — в разделе «Если вам очень плохо прямо сейчас» ниже.</p></div>
+<div class="callout urgent" role="note"><p><strong>Если вам очень плохо прямо сейчас</strong> и появились мысли причинить себе вред, звоните <a class="tel" href="tel:103" aria-label="Позвонить 103, скорая медицинская помощь"><strong>103</strong></a> (скорая помощь) или <a class="tel" href="tel:112" aria-label="Позвонить 112, единый номер экстренных служб"><strong>112</strong></a>. Номера телефонов доверия — в разделе «Если вам очень плохо прямо сейчас» ниже.</p></div>
 <details class="toc" open><summary>Содержание</summary><nav aria-label="Содержание"><ol><li><a href="#pochemu-eta-tema-vazhna">Почему эта тема важна?</a></li><li><a href="#naskolko-chasto-pri-endometrioze-byvayut-trevoga-i-depressiy">Насколько часто при эндометриозе бывают тревога и депрессия?</a></li><li><a href="#pochemu-eto-ne-vse-v-golove">Почему это не «всё в голове»?</a></li><li><a href="#kak-ponyat-chto-pora-k-psihoterapevtu-ili-psihiatru">Как понять, что пора к психотерапевту или психиатру?</a></li><li><a href="#esli-vam-ochen-ploho-pryamo-seychas">Если вам очень плохо прямо сейчас</a></li><li><a href="#chto-pomogaet-pri-trevoge-i-depressii-na-fone-endometrioza">Что помогает при тревоге и депрессии на фоне эндометриоза?</a></li><li><a href="#kak-govorit-o-nastroenii-na-prieme">Как говорить о настроении на приёме?</a></li><li><a href="#chto-sprosit-u-vracha">Что спросить у врача</a></li><li><a href="#chastye-voprosy">Частые вопросы</a></li></ol></nav></details>
 <h2 id="pochemu-eta-tema-vazhna">Почему эта тема важна?</h2>
 <p>Мира (AI-персонаж): «О боли при эндометриозе говорят много. О том, как от неё устаёт голова, говорят реже. Если вы стали раздражительной, боитесь следующих месячных или вам ничего не хочется, вы не одна. Давайте разберём, что об этом известно».</p>
 <p>ВОЗ прямо пишет, что эндометриоз может негативно влиять на психическое самочувствие, в том числе провоцируя депрессию и тревожные расстройства. Британское руководство NICE напоминает врачам, что болезнь может иметь серьёзные физические, сексуальные, психологические и социальные последствия, и советует учитывать не только телесные, но и психосексуальные и эмоциональные потребности женщины.</p>
 <h2 id="naskolko-chasto-pri-endometrioze-byvayut-trevoga-i-depressiy">Насколько часто при эндометриозе бывают тревога и депрессия?</h2>
 <p>Чаще, чем без него. Вот что показывают крупные обзоры:</p>
-<div class="table-wrap"><table>
+<div class="table-wrap" role="region" aria-label="Таблица: Насколько часто при эндометриозе бывают тревога и депрессия?" tabindex="0"><table><caption class="sr-only">Насколько часто при эндометриозе бывают тревога и депрессия?</caption>
 <thead>
 <tr>
-<th>Исследование</th>
-<th>Что изучали</th>
-<th>Главный вывод</th>
+<th scope="col">Исследование</th>
+<th scope="col">Что изучали</th>
+<th scope="col">Главный вывод</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>van Barneveld и соавт., 2022, мета-анализ (47 работ в обзоре, 17 в мета-анализе)</td>
+<th scope="row">van Barneveld и соавт., 2022, мета-анализ (47 работ в обзоре, 17 в мета-анализе)</th>
 <td>Симптомы депрессии и тревоги</td>
 <td>У женщин с эндометриозом их заметно больше, чем у здоровых. По сравнению с женщинами с другой хронической тазовой болью разницы нет</td>
 </tr>
 <tr>
-<td>Szypłowska и соавт., 2023, систематический обзор (18 работ о настроении)</td>
+<th scope="row">Szypłowska и соавт., 2023, систематический обзор (18 работ о настроении)</th>
 <td>Депрессия, тревога, качество жизни</td>
 <td>Чем сильнее боль, тем чаще тревога и депрессия и тем ниже качество жизни</td>
 </tr>
 <tr>
-<td>Delanerolle и соавт., 2021, мета-анализ проекта ELEMI</td>
+<th scope="row">Delanerolle и соавт., 2021, мета-анализ проекта ELEMI</th>
 <td>Последствия для психического здоровья</td>
 <td>Тревога и депрессия — психические последствия, которые описывают чаще всего</td>
 </tr>
@@ -118,10 +120,10 @@
 <section class="callout urgent" aria-label="Срочная помощь"><h2 id="esli-vam-ochen-ploho-pryamo-seychas">Если вам очень плохо прямо сейчас</h2>
 <p>Если появились мысли причинить себе вред или кажется, что выхода нет, не оставайтесь с этим одна. Позвоните прямо сейчас:</p>
 <ul>
-<li><a class="tel" href="tel:103"><strong>103</strong></a> — скорая медицинская помощь.</li>
-<li><a class="tel" href="tel:112"><strong>112</strong></a> — единый номер экстренных служб.</li>
-<li><a class="tel" href="tel:+375173524444"><strong>8 (017) 352-44-44</strong></a> — экстренная психологическая помощь в Минске для взрослых, круглосуточно, бесплатно и анонимно.</li>
-<li><a class="tel" href="tel:88011001611"><strong>8 (801) 100-16-11</strong></a> — республиканская «горячая линия» психологической помощи несовершеннолетним, круглосуточно и бесплатно.</li>
+<li><a class="tel" href="tel:103" aria-label="Позвонить 103, скорая медицинская помощь"><strong>103</strong></a> — скорая медицинская помощь.</li>
+<li><a class="tel" href="tel:112" aria-label="Позвонить 112, единый номер экстренных служб"><strong>112</strong></a> — единый номер экстренных служб.</li>
+<li><a class="tel" href="tel:+375173524444" aria-label="Позвонить 8 (017) 352-44-44, экстренная психологическая помощь в Минске"><strong>8 (017) 352-44-44</strong></a> — экстренная психологическая помощь в Минске для взрослых, круглосуточно, бесплатно и анонимно.</li>
+<li><a class="tel" href="tel:88011001611" aria-label="Позвонить 8 (801) 100-16-11, горячая линия психологической помощи несовершеннолетним"><strong>8 (801) 100-16-11</strong></a> — республиканская «горячая линия» психологической помощи несовершеннолетним, круглосуточно и бесплатно.</li>
 </ul>
 <p>В каждой области Беларуси работает свой круглосуточный телефон доверия, номер можно спросить в поликлинике. Если вы в другой стране, звоните в местную скорую помощь или по номеру 112.</p>
 <p>Позвоните близкому человеку и попросите побыть рядом. Сказать вслух «мне очень плохо» — это уже шаг к помощи.</p>
@@ -165,26 +167,26 @@
 Это решает врач с учётом вашего состояния и другого лечения. По ВОЗ, при умеренной и тяжёлой депрессии психологическое лечение может сочетаться с антидепрессантами. Не начинайте и не отменяйте их самостоятельно, а вопросы о побочных эффектах обсуждайте с врачом.</p>
 <h2 id="istochniki">Источники</h2>
 <ul>
-<li>ВОЗ. <a href="https://www.who.int/ru/news-room/fact-sheets/detail/endometriosis" target="_blank" rel="noopener">Эндометриоз: информационный бюллетень</a></li>
-<li>ВОЗ. <a href="https://www.who.int/ru/news-room/fact-sheets/detail/depression" target="_blank" rel="noopener">Депрессивное расстройство (депрессия): информационный бюллетень</a></li>
-<li>ESHRE. <a href="https://pubmed.ncbi.nlm.nih.gov/35350465/" target="_blank" rel="noopener">Guideline: endometriosis, 2022</a> (<a href="https://www.bsge.org.uk/wp-content/uploads/2022/02/ESHRE-GUIDELINE-ENDOMETRIOSIS-2022.pdf" target="_blank" rel="noopener">полный текст, PDF</a>)</li>
-<li>NICE. <a href="https://www.nice.org.uk/guidance/ng73/chapter/Recommendations" target="_blank" rel="noopener">Endometriosis: diagnosis and management (NG73), рекомендации</a></li>
-<li>van Barneveld E. и соавт. <a href="https://pubmed.ncbi.nlm.nih.gov/34077695/" target="_blank" rel="noopener">Depression, Anxiety, and Correlating Factors in Endometriosis: A Systematic Review and Meta-Analysis. J Womens Health, 2022</a></li>
-<li>Estes S.J. и соавт. <a href="https://academic.oup.com/aje/article/190/5/843/5979508" target="_blank" rel="noopener">Depression, anxiety, and self-directed violence in women with endometriosis: a retrospective matched-cohort study. Am J Epidemiol, 2021;190(5):843–852</a></li>
-<li>Szypłowska M. и соавт. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10512020/" target="_blank" rel="noopener">The impact of endometriosis on depressive and anxiety symptoms and quality of life: a systematic review. Front Public Health, 2023</a></li>
-<li>Delanerolle G. и соавт. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8182632/" target="_blank" rel="noopener">A systematic review and meta-analysis of the Endometriosis and Mental-Health Sequelae; The ELEMI Project. Womens Health, 2021</a></li>
+<li>ВОЗ. <a href="https://www.who.int/ru/news-room/fact-sheets/detail/endometriosis" target="_blank" rel="noopener">Эндометриоз: информационный бюллетень<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a></li>
+<li>ВОЗ. <a href="https://www.who.int/ru/news-room/fact-sheets/detail/depression" target="_blank" rel="noopener">Депрессивное расстройство (депрессия): информационный бюллетень<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a></li>
+<li>ESHRE. <a href="https://pubmed.ncbi.nlm.nih.gov/35350465/" target="_blank" rel="noopener" lang="en">Guideline: endometriosis, 2022<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a> (<a href="https://www.bsge.org.uk/wp-content/uploads/2022/02/ESHRE-GUIDELINE-ENDOMETRIOSIS-2022.pdf" target="_blank" rel="noopener">полный текст, PDF<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a>)</li>
+<li>NICE. <a href="https://www.nice.org.uk/guidance/ng73/chapter/Recommendations" target="_blank" rel="noopener">Endometriosis: diagnosis and management (NG73), рекомендации<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a></li>
+<li>van Barneveld E. и соавт. <a href="https://pubmed.ncbi.nlm.nih.gov/34077695/" target="_blank" rel="noopener" lang="en">Depression, Anxiety, and Correlating Factors in Endometriosis: A Systematic Review and Meta-Analysis. J Womens Health, 2022<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a></li>
+<li>Estes S.J. и соавт. <a href="https://academic.oup.com/aje/article/190/5/843/5979508" target="_blank" rel="noopener" lang="en">Depression, anxiety, and self-directed violence in women with endometriosis: a retrospective matched-cohort study. Am J Epidemiol, 2021;190(5):843–852<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a></li>
+<li>Szypłowska M. и соавт. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10512020/" target="_blank" rel="noopener" lang="en">The impact of endometriosis on depressive and anxiety symptoms and quality of life: a systematic review. Front Public Health, 2023<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a></li>
+<li>Delanerolle G. и соавт. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8182632/" target="_blank" rel="noopener" lang="en">A systematic review and meta-analysis of the Endometriosis and Mental-Health Sequelae; The ELEMI Project. Womens Health, 2021<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a></li>
 <li>
-<p>Pino-Sedeño T. и соавт. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11551779/" target="_blank" rel="noopener">Effectiveness of psychological interventions in endometriosis: a systematic review with meta-analysis. Front Psychol, 2024</a></p>
+<p>Pino-Sedeño T. и соавт. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11551779/" target="_blank" rel="noopener" lang="en">Effectiveness of psychological interventions in endometriosis: a systematic review with meta-analysis. Front Psychol, 2024<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a></p>
 </li>
 <li>
-<p>Телефоны экстренной психологической помощи в Беларуси: <a href="https://www.minpriroda.gov.by/uploads/files/Ekstrennaja-psixologicheskaja-pomosch.pdf" target="_blank" rel="noopener">памятка на портале gov.by</a>, <a href="https://www.bsmu.by/upload/docs/otdeli/vospitanie/spps/2023/telefoni2023.pdf" target="_blank" rel="noopener">перечень БГМУ</a></p>
+<p>Телефоны экстренной психологической помощи в Беларуси: <a href="https://www.minpriroda.gov.by/uploads/files/Ekstrennaja-psixologicheskaja-pomosch.pdf" target="_blank" rel="noopener">памятка на портале gov.by<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a>, <a href="https://www.bsmu.by/upload/docs/otdeli/vospitanie/spps/2023/telefoni2023.pdf" target="_blank" rel="noopener">перечень БГМУ<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a></p>
 </li>
 </ul>
 <p>Как мы готовим статьи: <a href="/endo/kak-my-pishem/">Как мы пишем</a>.</p>
 <hr />
 <p><em>Обновлено 16 октября 2026. Подготовила редакция «Эндо без тайн» по рекомендациям ESHRE, NICE и ВОЗ. Медицинская проверка врачом: в процессе.</em></p>
 <p><em>Статья носит информационный характер и не заменяет консультацию врача. Мира — AI-персонаж проекта «Эндо без тайн».</em></p>
-<section class="related"><h2>Читайте также</h2><div class="cards"><a class="art" href="/endo/bol-pri-sekse/"><div class="tile"><picture><source type="image/webp" srcset="/img/endo/bol-pri-sekse_16x9_640.webp?v=85329175 640w, /img/endo/bol-pri-sekse_16x9_1024.webp?v=9e0f391a 1024w, /img/endo/bol-pri-sekse_16x9_1600.webp?v=082f0b73 1600w" sizes="(max-width:700px) 92vw, 420px"><img src="/img/endo/bol-pri-sekse_16x9.jpg?v=a728586b" alt="Боль при сексе и эндометриоз: почему болит и что помогает: пара сидит рядом на кровати, держась за руки" loading="lazy" width="1600" height="900" decoding="async"></picture></div><div class="body"><h3>Боль при сексе и эндометриоз: почему болит и что помогает</h3><p>Почему при эндометриозе бывает глубокая боль во время секса, чем она отличается от боли на входе, когда сказать врачу и как говорить с партнёром.</p></div></a><a class="art" href="/endo/vybor-vracha/"><div class="tile"><picture><source type="image/webp" srcset="/img/endo/vybor-vracha_16x9_640.webp?v=7f55abeb 640w, /img/endo/vybor-vracha_16x9_1024.webp?v=4fe916e3 1024w, /img/endo/vybor-vracha_16x9_1600.webp?v=0bda05f1 1600w" sizes="(max-width:700px) 92vw, 420px"><img src="/img/endo/vybor-vracha_16x9.jpg?v=a3d1e558" alt="Как выбрать врача по эндометриозу и когда нужна вторая консультация: женщина разговаривает с врачом за столом в светлом кабинете" loading="lazy" width="1600" height="900" decoding="async"></picture></div><div class="body"><h3>Как выбрать врача по эндометриозу и когда нужна вторая консультация</h3><p>Какие врачи лечат эндометриоз, как понять, что врач вам подходит, когда нужна вторая консультация перед операцией и что спросить у хирурга.</p></div></a><a class="art" href="/endo/ustalost/"><div class="tile"><picture><source type="image/webp" srcset="/img/endo/ustalost_16x9_640.webp?v=55882a6e 640w, /img/endo/ustalost_16x9_1024.webp?v=4e85a11e 1024w, /img/endo/ustalost_16x9_1600.webp?v=a4955275 1600w" sizes="(max-width:700px) 92vw, 420px"><img src="/img/endo/ustalost_16x9.jpg?v=693066b8" alt="Эндометриоз и усталость: почему нет сил и что с этим делать: женщина отдыхает под пледом на диване в светлой комнате" loading="lazy" width="1600" height="900" decoding="async"></picture></div><div class="body"><h3>Эндометриоз и усталость: почему нет сил и что с этим делать</h3><p>Почему при эндометриозе постоянно хочется спать и нет сил: боль, плохой сон, анемия, тревога. Что проверить у врача и что помогает в быту.</p></div></a></div></section>
+<section class="related"><h2>Читайте также</h2><div class="cards"><a class="art" href="/endo/bol-pri-sekse/"><div class="tile"><picture><source type="image/webp" srcset="/img/endo/bol-pri-sekse_16x9_640.webp?v=85329175 640w, /img/endo/bol-pri-sekse_16x9_1024.webp?v=9e0f391a 1024w, /img/endo/bol-pri-sekse_16x9_1600.webp?v=082f0b73 1600w" sizes="(max-width:700px) 92vw, 420px"><img src="/img/endo/bol-pri-sekse_16x9.jpg?v=a728586b" alt="" loading="lazy" width="1600" height="900" decoding="async"></picture></div><div class="body"><h3>Боль при сексе и эндометриоз: почему болит и что помогает</h3><p>Почему при эндометриозе бывает глубокая боль во время секса, чем она отличается от боли на входе, когда сказать врачу и как говорить с партнёром.</p></div></a><a class="art" href="/endo/vybor-vracha/"><div class="tile"><picture><source type="image/webp" srcset="/img/endo/vybor-vracha_16x9_640.webp?v=7f55abeb 640w, /img/endo/vybor-vracha_16x9_1024.webp?v=4fe916e3 1024w, /img/endo/vybor-vracha_16x9_1600.webp?v=0bda05f1 1600w" sizes="(max-width:700px) 92vw, 420px"><img src="/img/endo/vybor-vracha_16x9.jpg?v=a3d1e558" alt="" loading="lazy" width="1600" height="900" decoding="async"></picture></div><div class="body"><h3>Как выбрать врача по эндометриозу и когда нужна вторая консультация</h3><p>Какие врачи лечат эндометриоз, как понять, что врач вам подходит, когда нужна вторая консультация перед операцией и что спросить у хирурга.</p></div></a><a class="art" href="/endo/ustalost/"><div class="tile"><picture><source type="image/webp" srcset="/img/endo/ustalost_16x9_640.webp?v=55882a6e 640w, /img/endo/ustalost_16x9_1024.webp?v=4e85a11e 1024w, /img/endo/ustalost_16x9_1600.webp?v=a4955275 1600w" sizes="(max-width:700px) 92vw, 420px"><img src="/img/endo/ustalost_16x9.jpg?v=693066b8" alt="" loading="lazy" width="1600" height="900" decoding="async"></picture></div><div class="body"><h3>Эндометриоз и усталость: почему нет сил и что с этим делать</h3><p>Почему при эндометриозе постоянно хочется спать и нет сил: боль, плохой сон, анемия, тревога. Что проверить у врача и что помогает в быту.</p></div></a></div></section>
 
     </article>
   </div>
@@ -207,5 +209,6 @@
     <div class="big-word" aria-hidden="true">Doctor Union</div>
   </div>
 </footer>
+<script>(function(){var b=document.querySelector(".menu-btn"),n=document.getElementById("nav-links");if(!b||!n)return;b.hidden=false;function set(o){b.setAttribute("aria-expanded",o?"true":"false");n.classList.toggle("open",o)}b.addEventListener("click",function(){set(b.getAttribute("aria-expanded")!=="true")});n.addEventListener("click",function(e){if(e.target.closest("a"))set(false)});document.addEventListener("keydown",function(e){if(e.key==="Escape"&&n.classList.contains("open")){set(false);b.focus()}})})();</script>
 </body>
 </html>

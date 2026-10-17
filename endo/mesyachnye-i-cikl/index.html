@@ -20,10 +20,11 @@
 <link rel="preload" href="/fonts/Unbounded-cyrillic-500.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/Onest-cyrillic-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/fonts/fonts.css?v=dd9bc35d99">
-<link rel="stylesheet" href="/assets/site.css?v=229c7a02fd">
+<link rel="stylesheet" href="/assets/site.css?v=d12cdc6c89">
 <script type="application/ld+json">[{"@context": "https://schema.org", "@type": "MedicalWebPage", "name": "Эндометриоз и менструальный цикл: обильные месячные и мажущие выделения", "headline": "Эндометриоз и менструальный цикл: обильные месячные и мажущие выделения", "description": "Как эндометриоз и аденомиоз влияют на месячные: обильные выделения, мазня до и после, анемия, дневник цикла и когда срочно к врачу.", "url": "https://doctor-union.onrender.com/endo/mesyachnye-i-cikl/", "inLanguage": "ru", "about": {"@type": "MedicalCondition", "name": "Эндометриоз"}, "audience": {"@type": "PeopleAudience", "audienceType": "Patient"}, "datePublished": "2026-10-18", "dateModified": "2026-10-18", "author": {"@type": "Organization", "name": "Редакция «Эндо без тайн»", "parentOrganization": {"@id": "https://doctor-union.onrender.com/#org"}}, "publisher": {"@id": "https://doctor-union.onrender.com/#org"}, "image": "https://doctor-union.onrender.com/img/endo/mesyachnye-i-cikl_og.jpg", "isPartOf": {"@type": "WebPage", "url": "https://doctor-union.onrender.com/endo/"}}, {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Doctor Union", "item": "https://doctor-union.onrender.com/"}, {"@type": "ListItem", "position": 2, "name": "Эндо без тайн", "item": "https://doctor-union.onrender.com/endo/"}, {"@type": "ListItem", "position": 3, "name": "Эндометриоз и менструальный цикл: обильные месячные и мажущие выделения", "item": "https://doctor-union.onrender.com/endo/mesyachnye-i-cikl/"}]}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Может ли эндометриоз вызывать обильные месячные?", "acceptedAnswer": {"@type": "Answer", "text": "Может. ВОЗ называет обильные месячные одним из симптомов эндометриоза. Особенно часто они бывают при аденомиозе, который нередко сопутствует эндометриозу."}}, {"@type": "Question", "name": "Коричневые выделения перед месячными — это точно эндометриоз?", "acceptedAnswer": {"@type": "Answer", "text": "Нет. В небольшом исследовании такие выделения чаще встречались у женщин с эндометриозом, но бывают и при полипах, контрацепции, гормональных колебаниях. Причину выясняет гинеколог."}}, {"@type": "Question", "name": "Сгустки при месячных — это нормально?", "acceptedAnswer": {"@type": "Answer", "text": "Небольшие сгустки бывают. Сгустки крупнее примерно 2,5 см NHS относит к признакам обильных месячных, с ними стоит показаться врачу."}}, {"@type": "Question", "name": "Бывают ли нерегулярные месячные при эндометриозе?", "acceptedAnswer": {"@type": "Answer", "text": "Бывают, но нерегулярный цикл часто связан и с другими причинами, например с гормональными нарушениями. Дневник цикла поможет врачу понять, что происходит."}}, {"@type": "Question", "name": "Нужно ли сдавать ферритин при обильных месячных?", "acceptedAnswer": {"@type": "Answer", "text": "NICE рекомендует всем женщинам с обильными месячными общий анализ крови, а ферритин — не всем подряд. Если вы сильно устаёте, спросите врача о нём."}}, {"@type": "Question", "name": "Если месячные обильные, а УЗИ в норме, что дальше?", "acceptedAnswer": {"@type": "Answer", "text": "Нормальное УЗИ не исключает ни эндометриоз, ни нарушения свёртываемости. Обсудите с врачом следующий шаг. О других признаках — в статье Симптомы эндометриоза."}}, {"@type": "Question", "name": "Может ли из-за эндометриоза быть низкий гемоглобин?", "acceptedAnswer": {"@type": "Answer", "text": "Может, если месячные обильные. ВОЗ отмечает, что обильные кровотечения при эндометриозе могут приводить к нехватке железа, а NHS называет обильные месячные частой причиной железодефицитной анемии. Если вы постоянно устаёте, стали бледнее, бывают одышка или заметное сердцебиение, попросите врача назначить анализ крови. Препараты железа обычно назначают по результату анализа, поэтому начинать их самой не стоит."}}]}]</script>
 </head>
 <body>
+<a class="skip" href="#content">Перейти к содержанию</a>
 <header class="nav">
   <div class="wrap">
     <a class="logo" href="/" aria-label="Doctor Union, на главную">
@@ -32,7 +33,8 @@
       </span>
       Doctor Union
     </a>
-    <nav class="nav-links" aria-label="Разделы">
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav-links" hidden>Меню</button>
+    <nav class="nav-links" id="nav-links" aria-label="Разделы">
       <a href="/endo/">Эндо без тайн</a>
       <a href="/#mission">Миссия</a>
       <a href="/#union">Кто в союзе</a>
@@ -40,17 +42,17 @@
       <a href="/#join">Участие</a>
       <a href="/blagotvoritelnost/">Поддержать</a>
     </nav>
-    <a class="btn btn-primary" href="/#contact">Вступить <span class="arr">→</span></a>
+    <a class="btn btn-primary" href="/#contact">Вступить <span class="arr" aria-hidden="true">→</span></a>
   </div>
 </header>
-<main>
+<main id="content" tabindex="-1">
   <div class="wrap">
     <header class="page-head">
       <nav class="crumbs" aria-label="Хлебные крошки"><a href="/">Doctor Union</a><span aria-hidden="true">/</span><a href="/endo/">Эндо без тайн</a><span aria-hidden="true">/</span><span aria-current="page">Эндометриоз и менструальный цикл: обильные месячные и мажущие выделения</span></nav>
       <div class="meta-line"><span class="badge live">Эндо без тайн</span><span class="badge">обновлено <time datetime="2026-10-18">18 октября 2026</time></span><span class="badge">проверка врачом: в процессе</span></div>
       <h1>Эндометриоз и менструальный цикл: обильные месячные и мажущие выделения</h1>
     </header>
-    <div class="cover"><picture><source type="image/webp" srcset="/img/endo/mesyachnye-i-cikl_16x9_640.webp?v=d989e9ef 640w, /img/endo/mesyachnye-i-cikl_16x9_1024.webp?v=4d8d41ef 1024w, /img/endo/mesyachnye-i-cikl_16x9_1600.webp?v=e5c5da3f 1600w" sizes="(max-width:760px) 100vw, 760px"><img src="/img/endo/mesyachnye-i-cikl_16x9.jpg?v=ca26ee0e" alt="Эндометриоз и менструальный цикл: обильные месячные и мажущие выделения: блокнот с нарисованным кругом цикла и грелка на вязаном пледе" fetchpriority="high" width="1600" height="900" decoding="async"></picture></div>
+    <div class="cover"><picture><source type="image/webp" srcset="/img/endo/mesyachnye-i-cikl_16x9_640.webp?v=d989e9ef 640w, /img/endo/mesyachnye-i-cikl_16x9_1024.webp?v=4d8d41ef 1024w, /img/endo/mesyachnye-i-cikl_16x9_1600.webp?v=e5c5da3f 1600w" sizes="(max-width:760px) 100vw, 760px"><img src="/img/endo/mesyachnye-i-cikl_16x9.jpg?v=ca26ee0e" alt="Блокнот с нарисованным кругом цикла и грелка на вязаном пледе" fetchpriority="high" width="1600" height="900" decoding="async"></picture></div>
     <article class="prose">
 <p><strong>Коротко.</strong> Да, бывают. ВОЗ называет обильные месячные одним из симптомов эндометриоза, а для аденомиоза (эндометриоза в мышечной стенке матки) это одна из самых частых жалоб. Мажущие выделения за 1–3 дня до месячных в небольшом исследовании тоже чаще встречались у женщин с эндометриозом. Но такие же симптомы дают миома, полипы, нарушения свёртываемости крови и гормональные причины, поэтому разобраться, откуда они, может только врач.</p>
 <details class="toc" open><summary>Содержание</summary><nav aria-label="Содержание"><ol><li><a href="#kak-endometrioz-i-adenomioz-menyayut-mesyachnye">Как эндометриоз и аденомиоз меняют месячные?</a></li><li><a href="#mazhuschie-vydeleniya-do-i-posle-mesyachnyh-eto-endometrioz">Мажущие выделения до и после месячных: это эндометриоз?</a></li><li><a href="#kakie-mesyachnye-schitayutsya-obilnymi">Какие месячные считаются обильными?</a></li><li><a href="#chto-esche-mozhet-davat-takie-simptomy">Что ещё может давать такие симптомы?</a></li><li><a href="#kak-obychno-obsleduyut-pri-obilnyh-mesyachnyh">Как обычно обследуют при обильных месячных?</a></li><li><a href="#anemiya-kogda-proverit-gemoglobin-i-ferritin">Анемия: когда проверить гемоглобин и ферритин?</a></li><li><a href="#kak-vesti-dnevnik-tsikla">Как вести дневник цикла?</a></li><li><a href="#mozhno-li-sdelat-mesyachnye-menee-obilnymi">Можно ли сделать месячные менее обильными?</a></li><li><a href="#kogda-srochno-k-vrachu">Когда срочно к врачу</a></li><li><a href="#chto-sprosit-u-vracha">Что спросить у врача</a></li><li><a href="#chastye-voprosy">Частые вопросы</a></li></ol></nav></details>
@@ -66,44 +68,44 @@
 <p>Эндометриоз и аденомиоз часто идут вместе: в том же обзоре приводятся данные, что аденомиоз находят у 25–70% женщин с эндометриозом. Разброс большой: оценки в разных исследованиях сильно отличаются, но сочетание этих болезней встречается часто. Поэтому если месячные стали не только болезненными, но и очень обильными, стоит спросить врача и про аденомиоз. О разнице между ними — в статье <a href="/endo/adenomioz/">Аденомиоз и эндометриоз: в чём разница</a>.</p>
 <h2 id="mazhuschie-vydeleniya-do-i-posle-mesyachnyh-eto-endometrioz">Мажущие выделения до и после месячных: это эндометриоз?</h2>
 <p>Не обязательно, но связь есть. Коричневые или кровянистые выделения («мазня») за 1–3 дня до месячных изучались как возможный признак эндометриоза. В небольшом исследовании из Германии (Birke и соавт., BMC Women's Health, 2021; 167 женщин, ретроспективный анализ) такие выделения перед месячными отметили 51% женщин с подтверждённым при операции эндометриозом и 22% женщин без него.</p>
-<p>Важно понимать границы этих данных. Это одно небольшое исследование, и выводы из него предварительные, а мажущие выделения бывают и без эндометриоза: при полипах, на фоне гормональной контрацепции или внутриматочной спирали, при колебаниях гормонов. Выделения между месячными или после секса — повод показаться гинекологу, даже если больше ничего не беспокоит. Об этом пишет и Национальная служба здравоохранения Великобритании (<a href="https://www.nhs.uk/symptoms/vaginal-bleeding-between-periods-or-after-sex/" target="_blank" rel="noopener">NHS</a>).</p>
+<p>Важно понимать границы этих данных. Это одно небольшое исследование, и выводы из него предварительные, а мажущие выделения бывают и без эндометриоза: при полипах, на фоне гормональной контрацепции или внутриматочной спирали, при колебаниях гормонов. Выделения между месячными или после секса — повод показаться гинекологу, даже если больше ничего не беспокоит. Об этом пишет и Национальная служба здравоохранения Великобритании (<a href="https://www.nhs.uk/symptoms/vaginal-bleeding-between-periods-or-after-sex/" target="_blank" rel="noopener" lang="en">NHS<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a>).</p>
 <h2 id="kakie-mesyachnye-schitayutsya-obilnymi">Какие месячные считаются обильными?</h2>
 <p>Британское руководство NICE NG88 по обильным менструальным кровотечениям не задаёт точный объём кровопотери. Оно определяет обильные месячные так: потеря крови, которая мешает физическому, социальному, эмоциональному или материальному качеству жизни женщины. То есть ориентир — ваша жизнь, а не цифра в миллилитрах.</p>
 <p>На практике NHS и американский центр CDC перечисляют такие признаки:</p>
-<div class="table-wrap"><table>
+<div class="table-wrap" role="region" aria-label="Таблица: Какие месячные считаются обильными?" tabindex="0"><table><caption class="sr-only">Какие месячные считаются обильными?</caption>
 <thead>
 <tr>
-<th>Признак</th>
-<th>Источник</th>
+<th scope="col">Признак</th>
+<th scope="col">Источник</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Прокладку или тампон приходится менять каждые 1–2 часа</td>
+<th scope="row">Прокладку или тампон приходится менять каждые 1–2 часа</th>
 <td>NHS</td>
 </tr>
 <tr>
-<td>Нужно использовать два средства сразу (например, тампон и прокладку)</td>
+<th scope="row">Нужно использовать два средства сразу (например, тампон и прокладку)</th>
 <td>NHS, CDC</td>
 </tr>
 <tr>
-<td>Месячные длятся больше 7 дней</td>
+<th scope="row">Месячные длятся больше 7 дней</th>
 <td>NHS, CDC</td>
 </tr>
 <tr>
-<td>Сгустки крупнее примерно 2,5 см</td>
+<th scope="row">Сгустки крупнее примерно 2,5 см</th>
 <td>NHS, CDC</td>
 </tr>
 <tr>
-<td>Кровь протекает на одежду или постель, приходится вставать ночью</td>
+<th scope="row">Кровь протекает на одежду или постель, приходится вставать ночью</th>
 <td>NHS, CDC</td>
 </tr>
 <tr>
-<td>Из-за месячных отменяете дела, спорт, учёбу</td>
+<th scope="row">Из-за месячных отменяете дела, спорт, учёбу</th>
 <td>NHS</td>
 </tr>
 <tr>
-<td>Постоянная усталость, одышка</td>
+<th scope="row">Постоянная усталость, одышка</th>
 <td>NHS, CDC</td>
 </tr>
 </tbody>
@@ -157,7 +159,7 @@
 <h2 id="mozhno-li-sdelat-mesyachnye-menee-obilnymi">Можно ли сделать месячные менее обильными?</h2>
 <p>Да, это часто удаётся. Выбор зависит от причины, планов на беременность и того, что ещё беспокоит. При эндометриозе и аденомиозе врачи обсуждают гормональное лечение (например, комбинированные оральные контрацептивы, прогестины), обезболивающие НПВС, а в отдельных случаях — операцию. Гормональное лечение может уменьшить и боль, и обильность месячных. Если назначенное лечение не подходит, не бросайте его сами: обсудите с врачом замену.</p>
 <h2 id="kogda-srochno-k-vrachu">Когда срочно к врачу</h2>
-<p>Обратитесь за неотложной помощью (<a class="tel" href="tel:103">103</a> или <a class="tel" href="tel:112">112</a>), если:</p>
+<p>Обратитесь за неотложной помощью (<a class="tel" href="tel:103" aria-label="Позвонить 103, скорая медицинская помощь">103</a> или <a class="tel" href="tel:112" aria-label="Позвонить 112, единый номер экстренных служб">112</a>), если:</p>
 <ul>
 <li>кровотечение очень сильное и не ослабевает;</li>
 <li>появились сильная слабость, головокружение, учащённое сердцебиение, вы теряли сознание или близки к обмороку;</li>
@@ -192,23 +194,23 @@ NICE рекомендует всем женщинам с обильными ме
 Может, если месячные обильные. ВОЗ отмечает, что обильные кровотечения при эндометриозе могут приводить к нехватке железа, а NHS называет обильные месячные частой причиной железодефицитной анемии. Если вы постоянно устаёте, стали бледнее, бывают одышка или заметное сердцебиение, попросите врача назначить анализ крови. Препараты железа обычно назначают по результату анализа, поэтому начинать их самой не стоит.</p>
 <h2 id="istochniki">Источники</h2>
 <ul>
-<li>ВОЗ. <a href="https://www.who.int/ru/news-room/fact-sheets/detail/endometriosis" target="_blank" rel="noopener">Эндометриоз: информационный бюллетень</a></li>
-<li>NICE. <a href="https://www.nice.org.uk/guidance/ng88/chapter/recommendations" target="_blank" rel="noopener">Heavy menstrual bleeding: assessment and management (NG88)</a> (<a href="https://www.ncbi.nlm.nih.gov/books/NBK493300/" target="_blank" rel="noopener">текст на NCBI Bookshelf</a>)</li>
-<li>NICE. <a href="https://www.nice.org.uk/guidance/ng73/chapter/Recommendations" target="_blank" rel="noopener">Endometriosis: diagnosis and management (NG73)</a></li>
-<li>ESHRE. <a href="https://pubmed.ncbi.nlm.nih.gov/35350465/" target="_blank" rel="noopener">Guideline: endometriosis, 2022</a></li>
-<li>NHS. <a href="https://www.nhs.uk/conditions/heavy-periods/" target="_blank" rel="noopener">Heavy periods</a></li>
-<li>NHS. <a href="https://www.nhs.uk/symptoms/vaginal-bleeding-between-periods-or-after-sex/" target="_blank" rel="noopener">Vaginal bleeding between periods or after sex</a></li>
-<li>CDC. <a href="https://www.cdc.gov/female-blood-disorders/about/heavy-menstrual-bleeding.html" target="_blank" rel="noopener">About Heavy Menstrual Bleeding</a></li>
-<li>Schrager S. и соавт. <a href="https://www.aafp.org/pubs/afp/issues/2022/0100/p33.html" target="_blank" rel="noopener">Adenomyosis: Diagnosis and Management. Am Fam Physician, 2022</a></li>
-<li>Birke L. и соавт. <a href="https://bmcwomenshealth.biomedcentral.com/articles/10.1186/s12905-021-01474-3" target="_blank" rel="noopener">Can TSH level and premenstrual spotting constitute a non-invasive marker for the diagnosis of endometriosis? BMC Women's Health, 2021</a></li>
-<li>ВОЗ. <a href="https://www.who.int/publications-detail/9789240000124" target="_blank" rel="noopener">Guideline on use of ferritin concentrations to assess iron status, 2020</a></li>
-<li><a href="https://www.nhs.uk/conditions/iron-deficiency-anaemia/" target="_blank" rel="noopener">NHS, «Iron deficiency anaemia»</a></li>
+<li>ВОЗ. <a href="https://www.who.int/ru/news-room/fact-sheets/detail/endometriosis" target="_blank" rel="noopener">Эндометриоз: информационный бюллетень<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a></li>
+<li>NICE. <a href="https://www.nice.org.uk/guidance/ng88/chapter/recommendations" target="_blank" rel="noopener" lang="en">Heavy menstrual bleeding: assessment and management (NG88)<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a> (<a href="https://www.ncbi.nlm.nih.gov/books/NBK493300/" target="_blank" rel="noopener">текст на NCBI Bookshelf<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a>)</li>
+<li>NICE. <a href="https://www.nice.org.uk/guidance/ng73/chapter/Recommendations" target="_blank" rel="noopener" lang="en">Endometriosis: diagnosis and management (NG73)<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a></li>
+<li>ESHRE. <a href="https://pubmed.ncbi.nlm.nih.gov/35350465/" target="_blank" rel="noopener" lang="en">Guideline: endometriosis, 2022<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a></li>
+<li>NHS. <a href="https://www.nhs.uk/conditions/heavy-periods/" target="_blank" rel="noopener" lang="en">Heavy periods<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a></li>
+<li>NHS. <a href="https://www.nhs.uk/symptoms/vaginal-bleeding-between-periods-or-after-sex/" target="_blank" rel="noopener" lang="en">Vaginal bleeding between periods or after sex<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a></li>
+<li>CDC. <a href="https://www.cdc.gov/female-blood-disorders/about/heavy-menstrual-bleeding.html" target="_blank" rel="noopener" lang="en">About Heavy Menstrual Bleeding<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a></li>
+<li>Schrager S. и соавт. <a href="https://www.aafp.org/pubs/afp/issues/2022/0100/p33.html" target="_blank" rel="noopener" lang="en">Adenomyosis: Diagnosis and Management. Am Fam Physician, 2022<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a></li>
+<li>Birke L. и соавт. <a href="https://bmcwomenshealth.biomedcentral.com/articles/10.1186/s12905-021-01474-3" target="_blank" rel="noopener" lang="en">Can TSH level and premenstrual spotting constitute a non-invasive marker for the diagnosis of endometriosis? BMC Women's Health, 2021<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a></li>
+<li>ВОЗ. <a href="https://www.who.int/publications-detail/9789240000124" target="_blank" rel="noopener" lang="en">Guideline on use of ferritin concentrations to assess iron status, 2020<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a></li>
+<li><a href="https://www.nhs.uk/conditions/iron-deficiency-anaemia/" target="_blank" rel="noopener" lang="en">NHS, «Iron deficiency anaemia»<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a></li>
 </ul>
 <p>Как мы готовим статьи: <a href="/endo/kak-my-pishem/">Как мы пишем</a>.</p>
 <hr />
 <p><em>Обновлено 18 октября 2026. Подготовила редакция «Эндо без тайн» по рекомендациям ESHRE, NICE и ВОЗ. Медицинская проверка врачом: в процессе.</em></p>
 <p><em>Статья носит информационный характер и не заменяет консультацию врача. Доктор Анна — AI-персонаж проекта «Эндо без тайн», а не живой врач.</em></p>
-<section class="related"><h2>Читайте также</h2><div class="cards"><a class="art" href="/endo/bol-pri-mesyachnyh/"><div class="tile"><picture><source type="image/webp" srcset="/img/endo/bol-pri-mesyachnyh_16x9_640.webp?v=6158543f 640w, /img/endo/bol-pri-mesyachnyh_16x9_1024.webp?v=e2af7c68 1024w, /img/endo/bol-pri-mesyachnyh_16x9_1600.webp?v=e711b7f0 1600w" sizes="(max-width:700px) 92vw, 420px"><img src="/img/endo/bol-pri-mesyachnyh_16x9.jpg?v=018e824a" alt="Сильная боль при месячных — это норма или эндометриоз?: женщина лежит на диване, держась за живот" loading="lazy" width="1600" height="900" decoding="async"></picture></div><div class="body"><h3>Сильная боль при месячных — это норма или эндометриоз?</h3><p>Боль, из-за которой вы пропускаете учёбу или работу, — не норма. 7 признаков эндометриоза, тест на 2 минуты и что сказать гинекологу.</p></div></a><a class="art" href="/endo/adenomioz/"><div class="tile"><picture><source type="image/webp" srcset="/img/endo/adenomioz_16x9_640.webp?v=17c15edf 640w, /img/endo/adenomioz_16x9_1024.webp?v=32bbb686 1024w, /img/endo/adenomioz_16x9_1600.webp?v=6a1b79f8 1600w" sizes="(max-width:700px) 92vw, 420px"><img src="/img/endo/adenomioz_16x9.jpg?v=e0d2f384" alt="Аденомиоз и эндометриоз: в чём разница: женщина с чашкой сидит за столом у окна" loading="lazy" width="1600" height="900" decoding="async"></picture></div><div class="body"><h3>Аденомиоз и эндометриоз: в чём разница</h3><p>Чем аденомиоз отличается от эндометриоза, какие у него симптомы, опасен ли он, как его лечат и что меняется после менопаузы.</p></div></a><a class="art" href="/endo/ustalost/"><div class="tile"><picture><source type="image/webp" srcset="/img/endo/ustalost_16x9_640.webp?v=55882a6e 640w, /img/endo/ustalost_16x9_1024.webp?v=4e85a11e 1024w, /img/endo/ustalost_16x9_1600.webp?v=a4955275 1600w" sizes="(max-width:700px) 92vw, 420px"><img src="/img/endo/ustalost_16x9.jpg?v=693066b8" alt="Эндометриоз и усталость: почему нет сил и что с этим делать: женщина отдыхает под пледом на диване в светлой комнате" loading="lazy" width="1600" height="900" decoding="async"></picture></div><div class="body"><h3>Эндометриоз и усталость: почему нет сил и что с этим делать</h3><p>Почему при эндометриозе постоянно хочется спать и нет сил: боль, плохой сон, анемия, тревога. Что проверить у врача и что помогает в быту.</p></div></a></div></section>
+<section class="related"><h2>Читайте также</h2><div class="cards"><a class="art" href="/endo/bol-pri-mesyachnyh/"><div class="tile"><picture><source type="image/webp" srcset="/img/endo/bol-pri-mesyachnyh_16x9_640.webp?v=6158543f 640w, /img/endo/bol-pri-mesyachnyh_16x9_1024.webp?v=e2af7c68 1024w, /img/endo/bol-pri-mesyachnyh_16x9_1600.webp?v=e711b7f0 1600w" sizes="(max-width:700px) 92vw, 420px"><img src="/img/endo/bol-pri-mesyachnyh_16x9.jpg?v=018e824a" alt="" loading="lazy" width="1600" height="900" decoding="async"></picture></div><div class="body"><h3>Сильная боль при месячных — это норма или эндометриоз?</h3><p>Боль, из-за которой вы пропускаете учёбу или работу, — не норма. 7 признаков эндометриоза, тест на 2 минуты и что сказать гинекологу.</p></div></a><a class="art" href="/endo/adenomioz/"><div class="tile"><picture><source type="image/webp" srcset="/img/endo/adenomioz_16x9_640.webp?v=17c15edf 640w, /img/endo/adenomioz_16x9_1024.webp?v=32bbb686 1024w, /img/endo/adenomioz_16x9_1600.webp?v=6a1b79f8 1600w" sizes="(max-width:700px) 92vw, 420px"><img src="/img/endo/adenomioz_16x9.jpg?v=e0d2f384" alt="" loading="lazy" width="1600" height="900" decoding="async"></picture></div><div class="body"><h3>Аденомиоз и эндометриоз: в чём разница</h3><p>Чем аденомиоз отличается от эндометриоза, какие у него симптомы, опасен ли он, как его лечат и что меняется после менопаузы.</p></div></a><a class="art" href="/endo/ustalost/"><div class="tile"><picture><source type="image/webp" srcset="/img/endo/ustalost_16x9_640.webp?v=55882a6e 640w, /img/endo/ustalost_16x9_1024.webp?v=4e85a11e 1024w, /img/endo/ustalost_16x9_1600.webp?v=a4955275 1600w" sizes="(max-width:700px) 92vw, 420px"><img src="/img/endo/ustalost_16x9.jpg?v=693066b8" alt="" loading="lazy" width="1600" height="900" decoding="async"></picture></div><div class="body"><h3>Эндометриоз и усталость: почему нет сил и что с этим делать</h3><p>Почему при эндометриозе постоянно хочется спать и нет сил: боль, плохой сон, анемия, тревога. Что проверить у врача и что помогает в быту.</p></div></a></div></section>
 
     </article>
   </div>
@@ -231,5 +233,6 @@ NICE рекомендует всем женщинам с обильными ме
     <div class="big-word" aria-hidden="true">Doctor Union</div>
   </div>
 </footer>
+<script>(function(){var b=document.querySelector(".menu-btn"),n=document.getElementById("nav-links");if(!b||!n)return;b.hidden=false;function set(o){b.setAttribute("aria-expanded",o?"true":"false");n.classList.toggle("open",o)}b.addEventListener("click",function(){set(b.getAttribute("aria-expanded")!=="true")});n.addEventListener("click",function(e){if(e.target.closest("a"))set(false)});document.addEventListener("keydown",function(e){if(e.key==="Escape"&&n.classList.contains("open")){set(false);b.focus()}})})();</script>
 </body>
 </html>

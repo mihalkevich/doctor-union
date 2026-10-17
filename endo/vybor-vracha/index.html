@@ -20,10 +20,11 @@
 <link rel="preload" href="/fonts/Unbounded-cyrillic-500.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/Onest-cyrillic-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/fonts/fonts.css?v=dd9bc35d99">
-<link rel="stylesheet" href="/assets/site.css?v=229c7a02fd">
+<link rel="stylesheet" href="/assets/site.css?v=d12cdc6c89">
 <script type="application/ld+json">[{"@context": "https://schema.org", "@type": "MedicalWebPage", "name": "Как выбрать врача по эндометриозу и когда нужна вторая консультация", "headline": "Как выбрать врача по эндометриозу и когда нужна вторая консультация", "description": "Какие врачи лечат эндометриоз, как понять, что врач вам подходит, когда нужна вторая консультация перед операцией и что спросить у хирурга.", "url": "https://doctor-union.onrender.com/endo/vybor-vracha/", "inLanguage": "ru", "about": {"@type": "MedicalCondition", "name": "Эндометриоз"}, "audience": {"@type": "PeopleAudience", "audienceType": "Patient"}, "datePublished": "2026-10-17", "dateModified": "2026-10-17", "author": {"@type": "Organization", "name": "Редакция «Эндо без тайн»", "parentOrganization": {"@id": "https://doctor-union.onrender.com/#org"}}, "publisher": {"@id": "https://doctor-union.onrender.com/#org"}, "image": "https://doctor-union.onrender.com/img/endo/vybor-vracha_og.jpg", "isPartOf": {"@type": "WebPage", "url": "https://doctor-union.onrender.com/endo/"}}, {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Doctor Union", "item": "https://doctor-union.onrender.com/"}, {"@type": "ListItem", "position": 2, "name": "Эндо без тайн", "item": "https://doctor-union.onrender.com/endo/"}, {"@type": "ListItem", "position": 3, "name": "Как выбрать врача по эндометриозу и когда нужна вторая консультация", "item": "https://doctor-union.onrender.com/endo/vybor-vracha/"}]}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Удобно ли просить второе мнение?", "acceptedAnswer": {"@type": "Answer", "text": "Да. Это обычная практика, особенно перед операцией. Хороший врач спокойно к этому относится. Возьмите копии всех заключений и снимков."}}, {"@type": "Question", "name": "Каждый врач говорит своё. Кому верить?", "acceptedAnswer": {"@type": "Answer", "text": "Разные советы часто отражают разный опыт и разные цели лечения. Спросите каждого врача, почему он предлагает именно это. Решающее мнение лучше получить у специалиста, который много работает с эндометриозом."}}, {"@type": "Question", "name": "Нужно ли второе мнение, если операция небольшая?", "acceptedAnswer": {"@type": "Answer", "text": "Если операцию планируют на яичниках, особенно при планах на беременность, второе мнение полезно: ESHRE предупреждает, что такая операция может уменьшить запас яйцеклеток. Если сомнений нет и врач всё объяснил, решение за вами."}}, {"@type": "Question", "name": "Какой врач нужен при глубоком эндометриозе?", "acceptedAnswer": {"@type": "Answer", "text": "Хирург-гинеколог с опытом таких операций, а при поражении кишечника или мочевого пузыря команда с колопроктологом и урологом. ESHRE 2022 рекомендует направлять таких пациенток в центр с опытом."}}, {"@type": "Question", "name": "Сколько ждать результата лечения, прежде чем идти к другому врачу?", "acceptedAnswer": {"@type": "Answer", "text": "Если за несколько месяцев лечение не помогает (NICE предлагает пробный курс обезболивающих около 3 месяцев) или побочные эффекты мешают жить, обсудите это со своим врачом и спросите о втором мнении. Не прекращайте лечение сами."}}]}]</script>
 </head>
 <body>
+<a class="skip" href="#content">Перейти к содержанию</a>
 <header class="nav">
   <div class="wrap">
     <a class="logo" href="/" aria-label="Doctor Union, на главную">
@@ -32,7 +33,8 @@
       </span>
       Doctor Union
     </a>
-    <nav class="nav-links" aria-label="Разделы">
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav-links" hidden>Меню</button>
+    <nav class="nav-links" id="nav-links" aria-label="Разделы">
       <a href="/endo/">Эндо без тайн</a>
       <a href="/#mission">Миссия</a>
       <a href="/#union">Кто в союзе</a>
@@ -40,57 +42,57 @@
       <a href="/#join">Участие</a>
       <a href="/blagotvoritelnost/">Поддержать</a>
     </nav>
-    <a class="btn btn-primary" href="/#contact">Вступить <span class="arr">→</span></a>
+    <a class="btn btn-primary" href="/#contact">Вступить <span class="arr" aria-hidden="true">→</span></a>
   </div>
 </header>
-<main>
+<main id="content" tabindex="-1">
   <div class="wrap">
     <header class="page-head">
       <nav class="crumbs" aria-label="Хлебные крошки"><a href="/">Doctor Union</a><span aria-hidden="true">/</span><a href="/endo/">Эндо без тайн</a><span aria-hidden="true">/</span><span aria-current="page">Как выбрать врача по эндометриозу и когда нужна вторая консультация</span></nav>
       <div class="meta-line"><span class="badge live">Эндо без тайн</span><span class="badge">обновлено <time datetime="2026-10-17">17 октября 2026</time></span><span class="badge">проверка врачом: в процессе</span></div>
       <h1>Как выбрать врача по эндометриозу и когда нужна вторая консультация</h1>
     </header>
-    <div class="cover"><picture><source type="image/webp" srcset="/img/endo/vybor-vracha_16x9_640.webp?v=7f55abeb 640w, /img/endo/vybor-vracha_16x9_1024.webp?v=4fe916e3 1024w, /img/endo/vybor-vracha_16x9_1600.webp?v=0bda05f1 1600w" sizes="(max-width:760px) 100vw, 760px"><img src="/img/endo/vybor-vracha_16x9.jpg?v=a3d1e558" alt="Как выбрать врача по эндометриозу и когда нужна вторая консультация: женщина разговаривает с врачом за столом в светлом кабинете" fetchpriority="high" width="1600" height="900" decoding="async"></picture></div>
+    <div class="cover"><picture><source type="image/webp" srcset="/img/endo/vybor-vracha_16x9_640.webp?v=7f55abeb 640w, /img/endo/vybor-vracha_16x9_1024.webp?v=4fe916e3 1024w, /img/endo/vybor-vracha_16x9_1600.webp?v=0bda05f1 1600w" sizes="(max-width:760px) 100vw, 760px"><img src="/img/endo/vybor-vracha_16x9.jpg?v=a3d1e558" alt="Женщина разговаривает с врачом за столом в светлом кабинете" fetchpriority="high" width="1600" height="900" decoding="async"></picture></div>
     <article class="prose">
 <p><strong>Коротко.</strong> Эндометриоз лечит гинеколог, а при глубоком эндометриозе, который затрагивает кишечник, мочевой пузырь или мочеточники, рекомендации ESHRE 2022 советуют направлять женщину в центр с опытом в этой болезни. Хороший врач объясняет варианты лечения, учитывает ваши цели и честно говорит о рисках. Вторая консультация особенно уместна перед операцией, если лечение не помогает несколько месяцев или заключения врачей противоречат друг другу.</p>
 <details class="toc" open><summary>Содержание</summary><nav aria-label="Содержание"><ol><li><a href="#kakoy-vrach-lechit-endometrioz">Какой врач лечит эндометриоз?</a></li><li><a href="#kak-ponyat-chto-vrach-vam-podhodit">Как понять, что врач вам подходит?</a></li><li><a href="#kogda-nuzhna-vtoraya-konsultatsiya">Когда нужна вторая консультация?</a></li><li><a href="#kak-ustroen-put-k-spetsialistu-v-belarusi">Как устроен путь к специалисту в Беларуси?</a></li><li><a href="#kak-podgotovitsya-k-konsultatsii">Как подготовиться к консультации?</a></li><li><a href="#chto-sprosit-u-hirurga-pered-operatsiey">Что спросить у хирурга перед операцией?</a></li><li><a href="#kogda-srochno-k-vrachu">Когда срочно к врачу</a></li><li><a href="#chto-sprosit-u-vracha">Что спросить у врача</a></li><li><a href="#chastye-voprosy">Частые вопросы</a></li></ol></nav></details>
 <h2 id="kakoy-vrach-lechit-endometrioz">Какой врач лечит эндометриоз?</h2>
 <p>Главный врач на этом пути — <strong>гинеколог</strong>. Он собирает жалобы, осматривает, назначает УЗИ и подбирает первое лечение. Часто этого достаточно надолго.</p>
 <p>Иногда нужна команда. Британское руководство NICE перечисляет, к кому должны иметь доступ специализированные центры эндометриоза:</p>
-<div class="table-wrap"><table>
+<div class="table-wrap" role="region" aria-label="Таблица: Какой врач лечит эндометриоз?" tabindex="0"><table><caption class="sr-only">Какой врач лечит эндометриоз?</caption>
 <thead>
 <tr>
-<th>Специалист</th>
-<th>Когда нужен</th>
+<th scope="col">Специалист</th>
+<th scope="col">Когда нужен</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Гинеколог с опытом в эндометриозе</td>
+<th scope="row">Гинеколог с опытом в эндометриозе</th>
 <td>Всегда: диагноз, лечение, наблюдение</td>
 </tr>
 <tr>
-<td>Хирург-гинеколог с продвинутыми навыками лапароскопии</td>
+<th scope="row">Хирург-гинеколог с продвинутыми навыками лапароскопии</th>
 <td>Если обсуждают операцию, особенно при глубоком эндометриозе</td>
 </tr>
 <tr>
-<td>Колопроктолог (хирург по кишечнику)</td>
+<th scope="row">Колопроктолог (хирург по кишечнику)</th>
 <td>Если очаги затрагивают кишечник</td>
 </tr>
 <tr>
-<td>Уролог</td>
+<th scope="row">Уролог</th>
 <td>Если затронуты мочевой пузырь или мочеточники</td>
 </tr>
 <tr>
-<td>Специалист по визуализации (УЗИ, МРТ) с опытом в эндометриозе</td>
+<th scope="row">Специалист по визуализации (УЗИ, МРТ) с опытом в эндометриозе</th>
 <td>Чтобы точно оценить, где и сколько очагов</td>
 </tr>
 <tr>
-<td>Служба лечения тазовой боли</td>
+<th scope="row">Служба лечения тазовой боли</th>
 <td>Если боль стала хронической и не уходит даже после лечения</td>
 </tr>
 <tr>
-<td>Репродуктолог</td>
+<th scope="row">Репродуктолог</th>
 <td>Если вы планируете беременность или она не наступает</td>
 </tr>
 </tbody>
@@ -146,7 +148,7 @@
 <li>кружится голова, вы теряете сознание или сильно кровит;</li>
 <li>не получается помочиться.</li>
 </ul>
-<p>В таких случаях обратитесь за неотложной помощью (<a class="tel" href="tel:103">103</a> или <a class="tel" href="tel:112">112</a>). Если в моче или кале появилась кровь, запишитесь к врачу в ближайшее время, не дожидаясь второго мнения.</p>
+<p>В таких случаях обратитесь за неотложной помощью (<a class="tel" href="tel:103" aria-label="Позвонить 103, скорая медицинская помощь">103</a> или <a class="tel" href="tel:112" aria-label="Позвонить 112, единый номер экстренных служб">112</a>). Если в моче или кале появилась кровь, запишитесь к врачу в ближайшее время, не дожидаясь второго мнения.</p>
 <h2 id="chto-sprosit-u-vracha">Что спросить у врача</h2>
 <ul>
 <li>Какой у меня тип эндометриоза и где очаги?</li>
@@ -170,15 +172,15 @@
 Если за несколько месяцев лечение не помогает (NICE предлагает пробный курс обезболивающих около 3 месяцев) или побочные эффекты мешают жить, обсудите это со своим врачом и спросите о втором мнении. Не прекращайте лечение сами.</p>
 <h2 id="istochniki">Источники</h2>
 <ul>
-<li>ESHRE. <a href="https://pubmed.ncbi.nlm.nih.gov/35350465/" target="_blank" rel="noopener">Guideline: endometriosis, 2022</a> (<a href="https://www.bsge.org.uk/wp-content/uploads/2022/02/ESHRE-GUIDELINE-ENDOMETRIOSIS-2022.pdf" target="_blank" rel="noopener">полный текст, PDF</a>): рекомендации о направлении в центр с опытом при глубоком эндометриозе, об опытном хирурге, о запасе яйцеклеток и совместном принятии решений</li>
-<li>NICE. <a href="https://www.nice.org.uk/guidance/ng73/chapter/Recommendations" target="_blank" rel="noopener">Endometriosis: diagnosis and management (NG73), рекомендации</a>: состав специализированных служб, направление, обсуждение рисков операции</li>
-<li>ВОЗ. <a href="https://www.who.int/ru/news-room/fact-sheets/detail/endometriosis" target="_blank" rel="noopener">Эндометриоз: информационный бюллетень</a></li>
+<li>ESHRE. <a href="https://pubmed.ncbi.nlm.nih.gov/35350465/" target="_blank" rel="noopener" lang="en">Guideline: endometriosis, 2022<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a> (<a href="https://www.bsge.org.uk/wp-content/uploads/2022/02/ESHRE-GUIDELINE-ENDOMETRIOSIS-2022.pdf" target="_blank" rel="noopener">полный текст, PDF<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a>): рекомендации о направлении в центр с опытом при глубоком эндометриозе, об опытном хирурге, о запасе яйцеклеток и совместном принятии решений</li>
+<li>NICE. <a href="https://www.nice.org.uk/guidance/ng73/chapter/Recommendations" target="_blank" rel="noopener">Endometriosis: diagnosis and management (NG73), рекомендации<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a>: состав специализированных служб, направление, обсуждение рисков операции</li>
+<li>ВОЗ. <a href="https://www.who.int/ru/news-room/fact-sheets/detail/endometriosis" target="_blank" rel="noopener">Эндометриоз: информационный бюллетень<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a></li>
 </ul>
 <p>Как мы готовим статьи: <a href="/endo/kak-my-pishem/">Как мы пишем</a>.</p>
 <hr />
 <p><em>Обновлено 17 октября 2026. Подготовила редакция «Эндо без тайн» по рекомендациям ESHRE, NICE и ВОЗ. Медицинская проверка врачом: в процессе.</em></p>
 <p><em>Статья носит информационный характер и не заменяет консультацию врача. Мира — AI-персонаж проекта «Эндо без тайн».</em></p>
-<section class="related"><h2>Читайте также</h2><div class="cards"><a class="art" href="/endo/chek-list-k-vrachu/"><div class="tile"><picture><source type="image/webp" srcset="/img/endo/chek-list-k-vrachu_16x9_640.webp?v=2bdde146 640w, /img/endo/chek-list-k-vrachu_16x9_1024.webp?v=f4b64d3f 1024w, /img/endo/chek-list-k-vrachu_16x9_1600.webp?v=1ca8229f 1600w" sizes="(max-width:700px) 92vw, 420px"><img src="/img/endo/chek-list-k-vrachu_16x9.jpg?v=6768ab10" alt="Что сказать гинекологу, чтобы вас услышали: чек-лист при подозрении на эндометриоз: женщина записывает вопросы в блокнот за столиком кафе" loading="lazy" width="1600" height="900" decoding="async"></picture></div><div class="body"><h3>Что сказать гинекологу, чтобы вас услышали: чек-лист при подозрении на эндометриоз</h3><p>Как подготовиться к приёму при подозрении на эндометриоз: дневник боли, готовые фразы, 9 вопросов врачу и что делать, если вас не услышали.</p></div></a><a class="art" href="/endo/varianty-lecheniya/"><div class="tile"><picture><source type="image/webp" srcset="/img/endo/varianty-lecheniya_16x9_640.webp?v=bfffb4e4 640w, /img/endo/varianty-lecheniya_16x9_1024.webp?v=686fdd6c 1024w, /img/endo/varianty-lecheniya_16x9_1600.webp?v=60d53346 1600w" sizes="(max-width:700px) 92vw, 420px"><img src="/img/endo/varianty-lecheniya_16x9.jpg?v=4a489f8d" alt="Как лечат эндометриоз и какое лечение выбрать?: блокнот с графиком, стакан воды и чашка на льняной скатерти" loading="lazy" width="1600" height="900" decoding="async"></picture></div><div class="body"><h3>Как лечат эндометриоз и какое лечение выбрать?</h3><p>Сравнение всех способов лечения эндометриоза: что делает каждый, плюсы, минусы и риск возврата. Спокойно и с источниками.</p></div></a><a class="art" href="/endo/kishechnik-mochevoj/"><div class="tile"><picture><source type="image/webp" srcset="/img/endo/kishechnik-mochevoj_16x9_640.webp?v=713b833b 640w, /img/endo/kishechnik-mochevoj_16x9_1024.webp?v=a7c04ccd 1024w, /img/endo/kishechnik-mochevoj_16x9_1600.webp?v=c7a2c533 1600w" sizes="(max-width:700px) 92vw, 420px"><img src="/img/endo/kishechnik-mochevoj_16x9.jpg?v=6214e642" alt="Эндометриоз кишечника и мочевого пузыря: симптомы и что делать: женщина в кресле на приёме у врача" loading="lazy" width="1600" height="900" decoding="async"></picture></div><div class="body"><h3>Эндометриоз кишечника и мочевого пузыря: симптомы и что делать</h3><p>Эндометриоз кишечника и мочевого пузыря — форма глубокого эндометриоза. Какие симптомы, как его находят на УЗИ и МРТ и почему важен опытный центр.</p></div></a></div></section>
+<section class="related"><h2>Читайте также</h2><div class="cards"><a class="art" href="/endo/chek-list-k-vrachu/"><div class="tile"><picture><source type="image/webp" srcset="/img/endo/chek-list-k-vrachu_16x9_640.webp?v=2bdde146 640w, /img/endo/chek-list-k-vrachu_16x9_1024.webp?v=f4b64d3f 1024w, /img/endo/chek-list-k-vrachu_16x9_1600.webp?v=1ca8229f 1600w" sizes="(max-width:700px) 92vw, 420px"><img src="/img/endo/chek-list-k-vrachu_16x9.jpg?v=6768ab10" alt="" loading="lazy" width="1600" height="900" decoding="async"></picture></div><div class="body"><h3>Что сказать гинекологу, чтобы вас услышали: чек-лист при подозрении на эндометриоз</h3><p>Как подготовиться к приёму при подозрении на эндометриоз: дневник боли, готовые фразы, 9 вопросов врачу и что делать, если вас не услышали.</p></div></a><a class="art" href="/endo/varianty-lecheniya/"><div class="tile"><picture><source type="image/webp" srcset="/img/endo/varianty-lecheniya_16x9_640.webp?v=bfffb4e4 640w, /img/endo/varianty-lecheniya_16x9_1024.webp?v=686fdd6c 1024w, /img/endo/varianty-lecheniya_16x9_1600.webp?v=60d53346 1600w" sizes="(max-width:700px) 92vw, 420px"><img src="/img/endo/varianty-lecheniya_16x9.jpg?v=4a489f8d" alt="" loading="lazy" width="1600" height="900" decoding="async"></picture></div><div class="body"><h3>Как лечат эндометриоз и какое лечение выбрать?</h3><p>Сравнение всех способов лечения эндометриоза: что делает каждый, плюсы, минусы и риск возврата. Спокойно и с источниками.</p></div></a><a class="art" href="/endo/kishechnik-mochevoj/"><div class="tile"><picture><source type="image/webp" srcset="/img/endo/kishechnik-mochevoj_16x9_640.webp?v=713b833b 640w, /img/endo/kishechnik-mochevoj_16x9_1024.webp?v=a7c04ccd 1024w, /img/endo/kishechnik-mochevoj_16x9_1600.webp?v=c7a2c533 1600w" sizes="(max-width:700px) 92vw, 420px"><img src="/img/endo/kishechnik-mochevoj_16x9.jpg?v=6214e642" alt="" loading="lazy" width="1600" height="900" decoding="async"></picture></div><div class="body"><h3>Эндометриоз кишечника и мочевого пузыря: симптомы и что делать</h3><p>Эндометриоз кишечника и мочевого пузыря — форма глубокого эндометриоза. Какие симптомы, как его находят на УЗИ и МРТ и почему важен опытный центр.</p></div></a></div></section>
 
     </article>
   </div>
@@ -201,5 +203,6 @@
     <div class="big-word" aria-hidden="true">Doctor Union</div>
   </div>
 </footer>
+<script>(function(){var b=document.querySelector(".menu-btn"),n=document.getElementById("nav-links");if(!b||!n)return;b.hidden=false;function set(o){b.setAttribute("aria-expanded",o?"true":"false");n.classList.toggle("open",o)}b.addEventListener("click",function(){set(b.getAttribute("aria-expanded")!=="true")});n.addEventListener("click",function(e){if(e.target.closest("a"))set(false)});document.addEventListener("keydown",function(e){if(e.key==="Escape"&&n.classList.contains("open")){set(false);b.focus()}})})();</script>
 </body>
 </html>

@@ -20,10 +20,11 @@
 <link rel="preload" href="/fonts/Unbounded-cyrillic-500.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/Onest-cyrillic-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/fonts/fonts.css?v=dd9bc35d99">
-<link rel="stylesheet" href="/assets/site.css?v=229c7a02fd">
+<link rel="stylesheet" href="/assets/site.css?v=d12cdc6c89">
 <script type="application/ld+json">[]</script>
 </head>
 <body>
+<a class="skip" href="#content">Перейти к содержанию</a>
 <header class="nav">
   <div class="wrap">
     <a class="logo" href="/" aria-label="Doctor Union, на главную">
@@ -32,7 +33,8 @@
       </span>
       Doctor Union
     </a>
-    <nav class="nav-links" aria-label="Разделы">
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav-links" hidden>Меню</button>
+    <nav class="nav-links" id="nav-links" aria-label="Разделы">
       <a href="/endo/">Эндо без тайн</a>
       <a href="/#mission">Миссия</a>
       <a href="/#union">Кто в союзе</a>
@@ -40,10 +42,10 @@
       <a href="/#join">Участие</a>
       <a href="/blagotvoritelnost/">Поддержать</a>
     </nav>
-    <a class="btn btn-primary" href="/#contact">Вступить <span class="arr">→</span></a>
+    <a class="btn btn-primary" href="/#contact">Вступить <span class="arr" aria-hidden="true">→</span></a>
   </div>
 </header>
-<main><section><div class="wrap head"><span class="eyebrow">404</span><h1>Такой страницы нет</h1><p class="lead">Возможно, она переехала. Начните с главной или с раздела «Эндо без тайн».</p><div class="cta-row"><a class="btn btn-primary" href="/">На главную <span class="arr">→</span></a><a class="btn btn-ghost" href="/endo/">Эндо без тайн</a></div></div></section></main>
+<main id="content" tabindex="-1"><section><div class="wrap head"><span class="eyebrow">404</span><h1>Такой страницы нет</h1><p class="lead">Возможно, она переехала. Начните с главной или с раздела «Эндо без тайн».</p><div class="cta-row"><a class="btn btn-primary" href="/">На главную <span class="arr" aria-hidden="true">→</span></a><a class="btn btn-ghost" href="/endo/">Эндо без тайн</a></div></div></section></main>
 <footer>
   <div class="wrap">
     <div class="foot">
@@ -62,5 +64,6 @@
     <div class="big-word" aria-hidden="true">Doctor Union</div>
   </div>
 </footer>
+<script>(function(){var b=document.querySelector(".menu-btn"),n=document.getElementById("nav-links");if(!b||!n)return;b.hidden=false;function set(o){b.setAttribute("aria-expanded",o?"true":"false");n.classList.toggle("open",o)}b.addEventListener("click",function(){set(b.getAttribute("aria-expanded")!=="true")});n.addEventListener("click",function(e){if(e.target.closest("a"))set(false)});document.addEventListener("keydown",function(e){if(e.key==="Escape"&&n.classList.contains("open")){set(false);b.focus()}})})();</script>
 </body>
 </html>

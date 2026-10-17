@@ -20,10 +20,11 @@
 <link rel="preload" href="/fonts/Unbounded-cyrillic-500.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/Onest-cyrillic-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/fonts/fonts.css?v=dd9bc35d99">
-<link rel="stylesheet" href="/assets/site.css?v=229c7a02fd">
+<link rel="stylesheet" href="/assets/site.css?v=d12cdc6c89">
 <script type="application/ld+json">[{"@context": "https://schema.org", "@type": "WebPage", "name": "Источники и рекомендации: на чём основан раздел «Эндо без тайн»", "description": "На какие рекомендации опираются статьи об эндометриозе: ESHRE 2022, NICE NG73, ВОЗ, ACOG, Cochrane, рекомендации Минздрава. Как мы выбираем источники.", "url": "https://doctor-union.onrender.com/endo/istochniki/", "inLanguage": "ru", "publisher": {"@id": "https://doctor-union.onrender.com/#org"}}, {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Doctor Union", "item": "https://doctor-union.onrender.com/"}, {"@type": "ListItem", "position": 2, "name": "Эндо без тайн", "item": "https://doctor-union.onrender.com/endo/"}, {"@type": "ListItem", "position": 3, "name": "Источники и рекомендации: на чём основан раздел «Эндо без тайн»", "item": "https://doctor-union.onrender.com/endo/istochniki/"}]}]</script>
 </head>
 <body>
+<a class="skip" href="#content">Перейти к содержанию</a>
 <header class="nav">
   <div class="wrap">
     <a class="logo" href="/" aria-label="Doctor Union, на главную">
@@ -32,7 +33,8 @@
       </span>
       Doctor Union
     </a>
-    <nav class="nav-links" aria-label="Разделы">
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav-links" hidden>Меню</button>
+    <nav class="nav-links" id="nav-links" aria-label="Разделы">
       <a href="/endo/">Эндо без тайн</a>
       <a href="/#mission">Миссия</a>
       <a href="/#union">Кто в союзе</a>
@@ -40,10 +42,10 @@
       <a href="/#join">Участие</a>
       <a href="/blagotvoritelnost/">Поддержать</a>
     </nav>
-    <a class="btn btn-primary" href="/#contact">Вступить <span class="arr">→</span></a>
+    <a class="btn btn-primary" href="/#contact">Вступить <span class="arr" aria-hidden="true">→</span></a>
   </div>
 </header>
-<main>
+<main id="content" tabindex="-1">
   <div class="wrap">
     <header class="page-head">
       <nav class="crumbs" aria-label="Хлебные крошки"><a href="/">Doctor Union</a><span aria-hidden="true">/</span><a href="/endo/">Эндо без тайн</a><span aria-hidden="true">/</span><span aria-current="page">Источники и рекомендации: на чём основан раздел «Эндо без тайн»</span></nav>
@@ -57,54 +59,54 @@
 <p>Клинические рекомендации (их ещё называют гайдлайнами) пишут группы врачей и учёных. Они собирают все доступные исследования, оценивают, насколько им можно доверять, и формулируют советы для врачей. Каждую рекомендацию сопровождает оценка силы доказательств. Поэтому одно громкое исследование не может перевернуть такую рекомендацию за один день.</p>
 <p>Для читательницы это значит простую вещь: если статья говорит «ESHRE советует» или «NICE пишет», вы можете открыть первоисточник и проверить.</p>
 <h2>Какие рекомендации мы используем?</h2>
-<div class="table-wrap"><table>
+<div class="table-wrap" role="region" aria-label="Таблица: Какие рекомендации мы используем?" tabindex="0"><table><caption class="sr-only">Какие рекомендации мы используем?</caption>
 <thead>
 <tr>
-<th>Источник</th>
-<th>Кто выпустил</th>
-<th>Год</th>
-<th>О чём</th>
+<th scope="col">Источник</th>
+<th scope="col">Кто выпустил</th>
+<th scope="col">Год</th>
+<th scope="col">О чём</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>ESHRE Guideline: Endometriosis</td>
+<th scope="row">ESHRE Guideline: Endometriosis</th>
 <td>Европейское общество репродукции человека и эмбриологии</td>
 <td>2022</td>
 <td>Диагностика и лечение эндометриоза, более 100 рекомендаций</td>
 </tr>
 <tr>
-<td>NICE NG73</td>
+<th scope="row">NICE NG73</th>
 <td>Национальный институт здравоохранения и совершенствования медицинской помощи Великобритании</td>
 <td>2017, частично обновлено в 2024</td>
 <td>Диагностика, направление к специалисту, лечение</td>
 </tr>
 <tr>
-<td>Бюллетень «Эндометриоз»</td>
+<th scope="row">Бюллетень «Эндометриоз»</th>
 <td>Всемирная организация здравоохранения</td>
 <td>2025</td>
 <td>Что это за болезнь, как её диагностируют и лечат</td>
 </tr>
 <tr>
-<td>Обзоры Cochrane</td>
+<th scope="row">Обзоры Cochrane</th>
 <td>Международная сеть Cochrane</td>
 <td>2016, 2017</td>
 <td>Сводные данные по отдельным вопросам</td>
 </tr>
 <tr>
-<td>Клинические рекомендации «Эндометриоз»</td>
+<th scope="row">Клинические рекомендации «Эндометриоз»</th>
 <td>Российское общество акушеров-гинекологов, одобрены Научно-практическим советом Минздрава России</td>
 <td>2024</td>
 <td>Российский стандарт диагностики и лечения</td>
 </tr>
 <tr>
-<td>Клинический протокол по акушерству и гинекологии</td>
+<th scope="row">Клинический протокол по акушерству и гинекологии</th>
 <td>Министерство здравоохранения Республики Беларусь</td>
 <td>2018, редакция 2026</td>
 <td>Медицинская помощь женщинам в гинекологии</td>
 </tr>
 <tr>
-<td>ACOG Clinical Practice Guideline</td>
+<th scope="row">ACOG Clinical Practice Guideline</th>
 <td>Американская коллегия акушеров и гинекологов</td>
 <td>2026</td>
 <td>Диагностика эндометриоза</td>
@@ -114,39 +116,39 @@
 <h3>ESHRE 2022</h3>
 <p>Главный источник раздела. Руководство вышло 2 февраля 2022 года и содержит больше ста рекомендаций. Важная перемена по сравнению с прошлой версией: диагноз можно ставить по симптомам, осмотру и УЗИ или МРТ, а лечение начинать без лапароскопии. У руководства есть отдельная версия для пациенток на английском.</p>
 <ul>
-<li><a href="https://www.eshre.eu/Guidelines-and-Legal/Guidelines/Endometriosis-guideline" target="_blank" rel="noopener">Страница руководства на сайте ESHRE</a></li>
-<li><a href="https://www.bsge.org.uk/wp-content/uploads/2022/02/ESHRE-GUIDELINE-ENDOMETRIOSIS-2022.pdf" target="_blank" rel="noopener">Полный текст, PDF</a></li>
-<li><a href="https://cgf.cochrane.org/sites/cgf.cochrane.org/files/public/uploads/eshre_endometriosis_patient_guideline_2022.pdf" target="_blank" rel="noopener">Версия для пациенток, PDF, англ.</a></li>
+<li><a href="https://www.eshre.eu/Guidelines-and-Legal/Guidelines/Endometriosis-guideline" target="_blank" rel="noopener">Страница руководства на сайте ESHRE<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a></li>
+<li><a href="https://www.bsge.org.uk/wp-content/uploads/2022/02/ESHRE-GUIDELINE-ENDOMETRIOSIS-2022.pdf" target="_blank" rel="noopener">Полный текст, PDF<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a></li>
+<li><a href="https://cgf.cochrane.org/sites/cgf.cochrane.org/files/public/uploads/eshre_endometriosis_patient_guideline_2022.pdf" target="_blank" rel="noopener">Версия для пациенток, PDF, англ.<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a></li>
 </ul>
 <p>На ESHRE опирается большинство наших статей, например <a href="/endo/diagnostika/">Как ставят диагноз</a>, <a href="/endo/varianty-lecheniya/">Варианты лечения</a>, <a href="/endo/bez-operacii/">Можно ли без операции</a>, <a href="/endo/laparoskopiya/">Лапароскопия</a>.</p>
 <h3>NICE NG73</h3>
 <p>Британское руководство «Endometriosis: diagnosis and management». Первая версия вышла в 2017 году, часть рекомендаций обновили в 2024-м, последний раз руководство пересматривали в сентябре 2025 года. Из него мы берём список симптомов, при которых стоит заподозрить эндометриоз, и совет вести дневник боли.</p>
 <ul>
-<li><a href="https://www.nice.org.uk/guidance/ng73" target="_blank" rel="noopener">Руководство NG73 на сайте NICE</a></li>
+<li><a href="https://www.nice.org.uk/guidance/ng73" target="_blank" rel="noopener">Руководство NG73 на сайте NICE<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a></li>
 </ul>
 <p>На NICE тоже опирается большинство статей, например <a href="/endo/simptomy/">Симптомы эндометриоза</a>, <a href="/endo/dnevnik-boli/">Дневник боли</a>, <a href="/endo/chek-list-k-vrachu/">Чек-лист к врачу</a>, <a href="/endo/podrostki/">Эндометриоз у подростков</a>.</p>
 <h3>ВОЗ</h3>
 <p>Информационный бюллетень «Эндометриоз» на русском языке, версия от 15 октября 2025 года. Коротко и понятно рассказывает о болезни, диагностике, лечении и о том, как эндометриоз влияет на жизнь.</p>
 <ul>
-<li><a href="https://www.who.int/ru/news-room/fact-sheets/detail/endometriosis" target="_blank" rel="noopener">Бюллетень ВОЗ на русском</a></li>
+<li><a href="https://www.who.int/ru/news-room/fact-sheets/detail/endometriosis" target="_blank" rel="noopener">Бюллетень ВОЗ на русском<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a></li>
 </ul>
 <p>Его цитирует большинство наших статей, например <a href="/endo/chto-takoe-endometrioz/">Что такое эндометриоз</a> и <a href="/endo/v-cifrah/">Эндометриоз в цифрах</a>.</p>
 <h3>Cochrane</h3>
 <p>Cochrane выпускает систематические обзоры: они сводят вместе результаты многих исследований по одному вопросу. Мы обращаемся к ним, когда нужен ответ на узкий вопрос.</p>
 <ul>
-<li><a href="https://www.cochrane.org/ru/evidence/CD004753_nonsteroidal-anti-inflammatory-drugs-management-pain-women-endometriosis" target="_blank" rel="noopener">Обзор об обезболивающих из группы НПВС при эндометриозе, 2017 (на русском)</a>: статья <a href="/endo/obezbolivayushchie/">Обезболивающие при эндометриозе</a></li>
-<li><a href="https://www.cochrane.org/ru/CD009591/metody-vizualizacii-dlya-ne-invazivnoy-diagnostiki-endometrioza" target="_blank" rel="noopener">Обзор методов визуализации для диагностики, 2016 (на русском)</a>: статья <a href="/endo/novoe-v-nauke/">Новое в науке</a></li>
+<li><a href="https://www.cochrane.org/ru/evidence/CD004753_nonsteroidal-anti-inflammatory-drugs-management-pain-women-endometriosis" target="_blank" rel="noopener">Обзор об обезболивающих из группы НПВС при эндометриозе, 2017 (на русском)<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a>: статья <a href="/endo/obezbolivayushchie/">Обезболивающие при эндометриозе</a></li>
+<li><a href="https://www.cochrane.org/ru/CD009591/metody-vizualizacii-dlya-ne-invazivnoy-diagnostiki-endometrioza" target="_blank" rel="noopener">Обзор методов визуализации для диагностики, 2016 (на русском)<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a>: статья <a href="/endo/novoe-v-nauke/">Новое в науке</a></li>
 </ul>
 <h3>Клинические рекомендации Минздрава России</h3>
 <p>Документ «Эндометриоз» 2024 года, разработчик — Российское общество акушеров-гинекологов, номер в рубрикаторе 259. Мы сверяемся с ним в статьях <a href="/endo/stadii/">Стадии эндометриоза</a> и <a href="/endo/glossarij/">Глоссарий</a>.</p>
 <ul>
-<li><a href="https://cr.minzdrav.gov.ru/" target="_blank" rel="noopener">Официальный рубрикатор клинических рекомендаций Минздрава России</a>: документ под номером 259. В нашей проверке сайт открылся, но текст документа не загрузился.</li>
-<li><a href="https://pravo.ppt.ru/klinicheskie-rekomendatsii/303180" target="_blank" rel="noopener">Текст рекомендаций на pravo.ppt.ru</a> — неофициальная копия</li>
+<li><a href="https://cr.minzdrav.gov.ru/" target="_blank" rel="noopener">Официальный рубрикатор клинических рекомендаций Минздрава России<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a>: документ под номером 259. В нашей проверке сайт открылся, но текст документа не загрузился.</li>
+<li><a href="https://pravo.ppt.ru/klinicheskie-rekomendatsii/303180" target="_blank" rel="noopener">Текст рекомендаций на pravo.ppt.ru<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a> — неофициальная копия</li>
 </ul>
 <h3>Клинический протокол Минздрава Беларуси</h3>
 <p>Протокол «Медицинское наблюдение и оказание медицинской помощи женщинам в акушерстве и гинекологии», утверждён постановлением Минздрава № 17 от 19 февраля 2018 года, действующая редакция — от 18 июня 2026 года.</p>
 <ul>
-<li><a href="https://minzdrav.gov.by/upload/dadvfiles/CProtokol/КП_акушерство%20и%20гинекология%20(взрослые)%20в%20ред.%20пост.%20МЗ%20РБ%20от%2018.06.2026%20№73.pdf" target="_blank" rel="noopener">Протокол на сайте Минздрава Беларуси, PDF</a></li>
+<li><a href="https://minzdrav.gov.by/upload/dadvfiles/CProtokol/КП_акушерство%20и%20гинекология%20(взрослые)%20в%20ред.%20пост.%20МЗ%20РБ%20от%2018.06.2026%20№73.pdf" target="_blank" rel="noopener">Протокол на сайте Минздрава Беларуси, PDF<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a></li>
 </ul>
 <p>Пока ни одна статья раздела не ссылается на протокол напрямую. Статьи <a href="/endo/marshrut-belarus/">Маршрут пациентки в Беларуси</a> и <a href="/endo/bolnichnyj-i-prava/">Больничный и права</a> опираются на белорусские законы, ссылки на них даны внутри статей.</p>
 <h3>ACOG</h3>
@@ -199,5 +201,6 @@
     <div class="big-word" aria-hidden="true">Doctor Union</div>
   </div>
 </footer>
+<script>(function(){var b=document.querySelector(".menu-btn"),n=document.getElementById("nav-links");if(!b||!n)return;b.hidden=false;function set(o){b.setAttribute("aria-expanded",o?"true":"false");n.classList.toggle("open",o)}b.addEventListener("click",function(){set(b.getAttribute("aria-expanded")!=="true")});n.addEventListener("click",function(e){if(e.target.closest("a"))set(false)});document.addEventListener("keydown",function(e){if(e.key==="Escape"&&n.classList.contains("open")){set(false);b.focus()}})})();</script>
 </body>
 </html>

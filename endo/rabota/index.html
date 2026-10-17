@@ -20,10 +20,11 @@
 <link rel="preload" href="/fonts/Unbounded-cyrillic-500.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/Onest-cyrillic-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/fonts/fonts.css?v=dd9bc35d99">
-<link rel="stylesheet" href="/assets/site.css?v=229c7a02fd">
+<link rel="stylesheet" href="/assets/site.css?v=d12cdc6c89">
 <script type="application/ld+json">[{"@context": "https://schema.org", "@type": "MedicalWebPage", "name": "Эндометриоз и работа: как говорить с руководителем и беречь силы", "headline": "Эндометриоз и работа: как говорить с руководителем и беречь силы", "description": "Как эндометриоз влияет на работу, нужно ли говорить о диагнозе начальнику, как подготовиться к разговору и какие гибкие решения можно обсудить.", "url": "https://doctor-union.onrender.com/endo/rabota/", "inLanguage": "ru", "about": {"@type": "MedicalCondition", "name": "Эндометриоз"}, "audience": {"@type": "PeopleAudience", "audienceType": "Patient"}, "datePublished": "2026-10-18", "dateModified": "2026-10-18", "author": {"@type": "Organization", "name": "Редакция «Эндо без тайн»", "parentOrganization": {"@id": "https://doctor-union.onrender.com/#org"}}, "publisher": {"@id": "https://doctor-union.onrender.com/#org"}, "image": "https://doctor-union.onrender.com/img/endo/rabota_og.jpg", "isPartOf": {"@type": "WebPage", "url": "https://doctor-union.onrender.com/endo/"}}, {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Doctor Union", "item": "https://doctor-union.onrender.com/"}, {"@type": "ListItem", "position": 2, "name": "Эндо без тайн", "item": "https://doctor-union.onrender.com/endo/"}, {"@type": "ListItem", "position": 3, "name": "Эндометриоз и работа: как говорить с руководителем и беречь силы", "item": "https://doctor-union.onrender.com/endo/rabota/"}]}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Обязана ли я говорить работодателю, что у меня эндометриоз?", "acceptedAnswer": {"@type": "Answer", "text": "Это ваше решение. Можно не говорить, сказать в общих словах или назвать диагноз. Если вопрос касается ваших прав в конкретной ситуации, уточните у юриста, в отделе кадров или в профсоюзе."}}, {"@type": "Question", "name": "Нормально ли брать больничный из-за боли при месячных?", "acceptedAnswer": {"@type": "Answer", "text": "Если боль не даёт работать, это повод обратиться к врачу. Больничный лист оформляет врач. Сильная боль, которая выбивает из жизни, — не норма, её стоит обследовать и лечить."}}, {"@type": "Question", "name": "Что сказать, если начальник считает, что «у всех болит»?", "acceptedAnswer": {"@type": "Answer", "text": "Можно спокойно объяснить, что у вас хроническое заболевание и вы наблюдаетесь у врача. Говорите о работе: в какие дни бывает трудно и какое решение поможет закрыть задачи в срок."}}, {"@type": "Question", "name": "Помогает ли удалённая работа при эндометриозе?", "acceptedAnswer": {"@type": "Answer", "text": "Многим она облегчает тяжёлые дни: не нужно ехать в офис, можно приложить тепло и сделать перерыв. Endometriosis UK называет удалённую работу одним из возможных решений. Но работодатель не всегда может на неё согласиться."}}, {"@type": "Question", "name": "Я работаю через боль, но делаю меньше. Это заметно?", "acceptedAnswer": {"@type": "Answer", "text": "Именно так чаще всего и бывает. В исследовании WERF рабочее время женщины с эндометриозом теряли в основном из-за сниженной эффективности, а не из-за пропусков. Это повод обсудить с врачом обезболивание и лечение."}}]}]</script>
 </head>
 <body>
+<a class="skip" href="#content">Перейти к содержанию</a>
 <header class="nav">
   <div class="wrap">
     <a class="logo" href="/" aria-label="Doctor Union, на главную">
@@ -32,7 +33,8 @@
       </span>
       Doctor Union
     </a>
-    <nav class="nav-links" aria-label="Разделы">
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav-links" hidden>Меню</button>
+    <nav class="nav-links" id="nav-links" aria-label="Разделы">
       <a href="/endo/">Эндо без тайн</a>
       <a href="/#mission">Миссия</a>
       <a href="/#union">Кто в союзе</a>
@@ -40,17 +42,17 @@
       <a href="/#join">Участие</a>
       <a href="/blagotvoritelnost/">Поддержать</a>
     </nav>
-    <a class="btn btn-primary" href="/#contact">Вступить <span class="arr">→</span></a>
+    <a class="btn btn-primary" href="/#contact">Вступить <span class="arr" aria-hidden="true">→</span></a>
   </div>
 </header>
-<main>
+<main id="content" tabindex="-1">
   <div class="wrap">
     <header class="page-head">
       <nav class="crumbs" aria-label="Хлебные крошки"><a href="/">Doctor Union</a><span aria-hidden="true">/</span><a href="/endo/">Эндо без тайн</a><span aria-hidden="true">/</span><span aria-current="page">Эндометриоз и работа: как говорить с руководителем и беречь силы</span></nav>
       <div class="meta-line"><span class="badge live">Эндо без тайн</span><span class="badge">обновлено <time datetime="2026-10-18">18 октября 2026</time></span><span class="badge">проверка врачом: в процессе</span></div>
       <h1>Эндометриоз и работа: как говорить с руководителем и беречь силы</h1>
     </header>
-    <div class="cover"><picture><source type="image/webp" srcset="/img/endo/rabota_16x9_640.webp?v=feaf5bc9 640w, /img/endo/rabota_16x9_1024.webp?v=4031287b 1024w, /img/endo/rabota_16x9_1600.webp?v=ca02bb61 1600w" sizes="(max-width:760px) 100vw, 760px"><img src="/img/endo/rabota_16x9.jpg?v=58f42409" alt="Эндометриоз и работа: как говорить с руководителем и беречь силы: женщина работает за ноутбуком у окна, рядом чашка и растение" fetchpriority="high" width="1600" height="900" decoding="async"></picture></div>
+    <div class="cover"><picture><source type="image/webp" srcset="/img/endo/rabota_16x9_640.webp?v=feaf5bc9 640w, /img/endo/rabota_16x9_1024.webp?v=4031287b 1024w, /img/endo/rabota_16x9_1600.webp?v=ca02bb61 1600w" sizes="(max-width:760px) 100vw, 760px"><img src="/img/endo/rabota_16x9.jpg?v=58f42409" alt="Женщина работает за ноутбуком у окна, рядом чашка и растение" fetchpriority="high" width="1600" height="900" decoding="async"></picture></div>
     <article class="prose">
 <p><strong>Коротко.</strong> Эндометриоз действительно может мешать работе: в международном исследовании WERF женщины с этой болезнью теряли в среднем 10,8 рабочего часа в неделю, в основном потому, что работали через боль и не так эффективно. Рассказывать ли о диагнозе на работе и сколько, решаете только вы. Если решите поговорить, заранее подготовьте короткое описание того, как болезнь влияет на работу, и одно-два конкретных предложения: например, гибкий график в тяжёлые дни или возможность работать из дома.</p>
 <details class="toc" open><summary>Содержание</summary><nav aria-label="Содержание"><ol><li><a href="#kak-endometrioz-vliyaet-na-rabotu">Как эндометриоз влияет на работу?</a></li><li><a href="#nuzhno-li-rasskazyvat-o-diagnoze-na-rabote">Нужно ли рассказывать о диагнозе на работе?</a></li><li><a href="#kak-podgotovitsya-k-razgovoru-s-rukovoditelem">Как подготовиться к разговору с руководителем?</a></li><li><a href="#kakie-gibkie-resheniya-mozhno-obsudit">Какие гибкие решения можно обсудить?</a></li><li><a href="#kak-planirovat-nagruzku-po-dnevniku-tsikla">Как планировать нагрузку по дневнику цикла?</a></li><li><a href="#chto-s-bolnichnym-i-pravami-na-rabote-v-belarusi">Что с больничным и правами на работе в Беларуси?</a></li><li><a href="#kogda-srochno-k-vrachu">Когда срочно к врачу</a></li><li><a href="#chto-sprosit-u-vracha">Что спросить у врача</a></li><li><a href="#chastye-voprosy">Частые вопросы</a></li></ol></nav></details>
@@ -64,30 +66,30 @@
 <p>Важно: если вы «не тянете» в тяжёлые дни, это не лень и не слабый характер. Это симптом болезни, и его можно обсуждать с врачом. Британское руководство NICE советует при оценке потребностей женщины с эндометриозом учитывать и повседневную жизнь, в том числе работу и учёбу. Иногда пересмотр лечения облегчает рабочие будни.</p>
 <h2 id="nuzhno-li-rasskazyvat-o-diagnoze-na-rabote">Нужно ли рассказывать о диагнозе на работе?</h2>
 <p>Решение только ваше. Ни одна статья, коллега или врач не могут решить за вас, кому и что говорить. Бывает три основных варианта.</p>
-<div class="table-wrap"><table>
+<div class="table-wrap" role="region" aria-label="Таблица: Нужно ли рассказывать о диагнозе на работе?" tabindex="0"><table><caption class="sr-only">Нужно ли рассказывать о диагнозе на работе?</caption>
 <thead>
 <tr>
-<th>Вариант</th>
-<th>Плюсы</th>
-<th>Минусы</th>
-<th>Кому может подойти</th>
+<th scope="col">Вариант</th>
+<th scope="col">Плюсы</th>
+<th scope="col">Минусы</th>
+<th scope="col">Кому может подойти</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Не рассказывать</td>
+<th scope="row">Не рассказывать</th>
 <td>Диагноз остаётся личным делом</td>
 <td>Сложнее объяснить пропуски и попросить гибкость</td>
 <td>Если симптомы не мешают работе или атмосфера в коллективе не располагает</td>
 </tr>
 <tr>
-<td>Сказать в общих словах («хроническое гинекологическое заболевание», «проблемы со здоровьем, я наблюдаюсь у врача»)</td>
+<th scope="row">Сказать в общих словах («хроническое гинекологическое заболевание», «проблемы со здоровьем, я наблюдаюсь у врача»)</th>
 <td>Можно договориться о гибкости, не раскрывая подробностей</td>
 <td>Руководителю может быть сложнее понять, почему нужны именно такие условия</td>
 <td>Если хочется поддержки, но без деталей</td>
 </tr>
 <tr>
-<td>Назвать диагноз и объяснить, как он влияет на работу</td>
+<th scope="row">Назвать диагноз и объяснить, как он влияет на работу</th>
 <td>Проще планировать задачи и отпуска вместе, меньше недосказанности</td>
 <td>Не все реагируют с пониманием, о болезни многие знают мало</td>
 <td>Если вам доверяют и есть повод для конкретной договорённости</td>
@@ -147,7 +149,7 @@
 <p>Если из-за болезни вы не можете работать, больничный лист оформляет врач. Обратитесь в свою поликлинику или к врачу, который вас наблюдает, и расскажите, почему не можете выйти на работу. Ваши права как работника регулирует Трудовой кодекс Республики Беларусь.</p>
 <p>Мы не даём юридических советов и не описываем конкретные нормы. Если нужен точный ответ про ваш случай, например про перевод на другую работу, график или увольнение, обратитесь к юристу, в отдел кадров или в профсоюз, если он есть на вашей работе.</p>
 <h2 id="kogda-srochno-k-vrachu">Когда срочно к врачу</h2>
-<p>Не ждите конца рабочего дня и обратитесь за неотложной помощью (<a class="tel" href="tel:103">103</a> или <a class="tel" href="tel:112">112</a>), если:</p>
+<p>Не ждите конца рабочего дня и обратитесь за неотложной помощью (<a class="tel" href="tel:103" aria-label="Позвонить 103, скорая медицинская помощь">103</a> или <a class="tel" href="tel:112" aria-label="Позвонить 112, единый номер экстренных служб">112</a>), если:</p>
 <ul>
 <li>боль резкая и очень сильная, особенно с температурой, рвотой или обмороком;</li>
 <li>очень сильное кровотечение, которое не ослабевает, особенно с головокружением или слабостью;</li>
@@ -175,19 +177,19 @@
 Именно так чаще всего и бывает. В исследовании WERF рабочее время женщины с эндометриозом теряли в основном из-за сниженной эффективности, а не из-за пропусков. Это повод обсудить с врачом обезболивание и лечение.</p>
 <h2 id="istochniki">Источники</h2>
 <ul>
-<li>Nnoaham K.E. и соавт. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3679489" target="_blank" rel="noopener">Impact of endometriosis on quality of life and work productivity: a multicenter study across ten countries. Fertil Steril, 2011</a></li>
-<li>Røssell E.-L. и соавт. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11879171/" target="_blank" rel="noopener">Association between endometriosis and working life among Danish women. Hum Reprod, 2025</a></li>
-<li>ВОЗ. <a href="https://www.who.int/ru/news-room/fact-sheets/detail/endometriosis" target="_blank" rel="noopener">Эндометриоз: информационный бюллетень</a></li>
-<li>NICE. <a href="https://www.nice.org.uk/guidance/ng73/chapter/Recommendations" target="_blank" rel="noopener">Endometriosis: diagnosis and management (NG73), рекомендации</a></li>
-<li>ESHRE. <a href="https://pubmed.ncbi.nlm.nih.gov/35350465/" target="_blank" rel="noopener">Guideline: endometriosis, 2022</a></li>
-<li>Endometriosis UK. <a href="https://www.endometriosis-uk.org/blog/hot-topic-managing-endometriosis-work" target="_blank" rel="noopener">Hot Topic: Managing Endometriosis at Work, 2025</a></li>
-<li>Endometriosis UK. <a href="https://endometriosis-uk.org/sites/default/files/files/Hints-and-tips-for-dealing-with-employers.pdf" target="_blank" rel="noopener">Hints and tips for dealing with employers (PDF)</a></li>
+<li>Nnoaham K.E. и соавт. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3679489" target="_blank" rel="noopener" lang="en">Impact of endometriosis on quality of life and work productivity: a multicenter study across ten countries. Fertil Steril, 2011<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a></li>
+<li>Røssell E.-L. и соавт. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11879171/" target="_blank" rel="noopener" lang="en">Association between endometriosis and working life among Danish women. Hum Reprod, 2025<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a></li>
+<li>ВОЗ. <a href="https://www.who.int/ru/news-room/fact-sheets/detail/endometriosis" target="_blank" rel="noopener">Эндометриоз: информационный бюллетень<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a></li>
+<li>NICE. <a href="https://www.nice.org.uk/guidance/ng73/chapter/Recommendations" target="_blank" rel="noopener">Endometriosis: diagnosis and management (NG73), рекомендации<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a></li>
+<li>ESHRE. <a href="https://pubmed.ncbi.nlm.nih.gov/35350465/" target="_blank" rel="noopener" lang="en">Guideline: endometriosis, 2022<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a></li>
+<li>Endometriosis UK. <a href="https://www.endometriosis-uk.org/blog/hot-topic-managing-endometriosis-work" target="_blank" rel="noopener" lang="en">Hot Topic: Managing Endometriosis at Work, 2025<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a></li>
+<li>Endometriosis UK. <a href="https://endometriosis-uk.org/sites/default/files/files/Hints-and-tips-for-dealing-with-employers.pdf" target="_blank" rel="noopener" lang="en">Hints and tips for dealing with employers (PDF)<span class="sr-only" lang="ru"> (откроется в новой вкладке)</span></a></li>
 </ul>
 <p>Как мы готовим статьи: <a href="/endo/kak-my-pishem/">Как мы пишем</a>.</p>
 <hr />
 <p><em>Обновлено 18 октября 2026. Подготовила редакция «Эндо без тайн» по рекомендациям ESHRE, NICE и ВОЗ. Медицинская проверка врачом: в процессе.</em></p>
 <p><em>Статья носит информационный характер и не заменяет консультацию врача. Мира — AI-персонаж проекта «Эндо без тайн».</em></p>
-<section class="related"><h2>Читайте также</h2><div class="cards"><a class="art" href="/endo/mesyachnye-i-cikl/"><div class="tile"><picture><source type="image/webp" srcset="/img/endo/mesyachnye-i-cikl_16x9_640.webp?v=d989e9ef 640w, /img/endo/mesyachnye-i-cikl_16x9_1024.webp?v=4d8d41ef 1024w, /img/endo/mesyachnye-i-cikl_16x9_1600.webp?v=e5c5da3f 1600w" sizes="(max-width:700px) 92vw, 420px"><img src="/img/endo/mesyachnye-i-cikl_16x9.jpg?v=ca26ee0e" alt="Эндометриоз и менструальный цикл: обильные месячные и мажущие выделения: блокнот с нарисованным кругом цикла и грелка на вязаном пледе" loading="lazy" width="1600" height="900" decoding="async"></picture></div><div class="body"><h3>Эндометриоз и менструальный цикл: обильные месячные и мажущие выделения</h3><p>Как эндометриоз и аденомиоз влияют на месячные: обильные выделения, мазня до и после, анемия, дневник цикла и когда срочно к врачу.</p></div></a><a class="art" href="/endo/ustalost/"><div class="tile"><picture><source type="image/webp" srcset="/img/endo/ustalost_16x9_640.webp?v=55882a6e 640w, /img/endo/ustalost_16x9_1024.webp?v=4e85a11e 1024w, /img/endo/ustalost_16x9_1600.webp?v=a4955275 1600w" sizes="(max-width:700px) 92vw, 420px"><img src="/img/endo/ustalost_16x9.jpg?v=693066b8" alt="Эндометриоз и усталость: почему нет сил и что с этим делать: женщина отдыхает под пледом на диване в светлой комнате" loading="lazy" width="1600" height="900" decoding="async"></picture></div><div class="body"><h3>Эндометриоз и усталость: почему нет сил и что с этим делать</h3><p>Почему при эндометриозе постоянно хочется спать и нет сил: боль, плохой сон, анемия, тревога. Что проверить у врача и что помогает в быту.</p></div></a><a class="art" href="/endo/psihicheskoe-zdorove/"><div class="tile"><picture><source type="image/webp" srcset="/img/endo/psihicheskoe-zdorove_16x9_640.webp?v=f330f86e 640w, /img/endo/psihicheskoe-zdorove_16x9_1024.webp?v=6b06bd65 1024w, /img/endo/psihicheskoe-zdorove_16x9_1600.webp?v=952cf873 1600w" sizes="(max-width:700px) 92vw, 420px"><img src="/img/endo/psihicheskoe-zdorove_16x9.jpg?v=f5b22a2a" alt="Эндометриоз и психическое здоровье: тревога и депрессия: две улыбающиеся женщины сидят на скамейке в парке" loading="lazy" width="1600" height="900" decoding="async"></picture></div><div class="body"><h3>Эндометриоз и психическое здоровье: тревога и депрессия</h3><p>Почему при эндометриозе чаще бывают тревога и депрессия, почему это не «всё в голове», когда идти к психотерапевту и где найти срочную помощь.</p></div></a></div></section>
+<section class="related"><h2>Читайте также</h2><div class="cards"><a class="art" href="/endo/mesyachnye-i-cikl/"><div class="tile"><picture><source type="image/webp" srcset="/img/endo/mesyachnye-i-cikl_16x9_640.webp?v=d989e9ef 640w, /img/endo/mesyachnye-i-cikl_16x9_1024.webp?v=4d8d41ef 1024w, /img/endo/mesyachnye-i-cikl_16x9_1600.webp?v=e5c5da3f 1600w" sizes="(max-width:700px) 92vw, 420px"><img src="/img/endo/mesyachnye-i-cikl_16x9.jpg?v=ca26ee0e" alt="" loading="lazy" width="1600" height="900" decoding="async"></picture></div><div class="body"><h3>Эндометриоз и менструальный цикл: обильные месячные и мажущие выделения</h3><p>Как эндометриоз и аденомиоз влияют на месячные: обильные выделения, мазня до и после, анемия, дневник цикла и когда срочно к врачу.</p></div></a><a class="art" href="/endo/ustalost/"><div class="tile"><picture><source type="image/webp" srcset="/img/endo/ustalost_16x9_640.webp?v=55882a6e 640w, /img/endo/ustalost_16x9_1024.webp?v=4e85a11e 1024w, /img/endo/ustalost_16x9_1600.webp?v=a4955275 1600w" sizes="(max-width:700px) 92vw, 420px"><img src="/img/endo/ustalost_16x9.jpg?v=693066b8" alt="" loading="lazy" width="1600" height="900" decoding="async"></picture></div><div class="body"><h3>Эндометриоз и усталость: почему нет сил и что с этим делать</h3><p>Почему при эндометриозе постоянно хочется спать и нет сил: боль, плохой сон, анемия, тревога. Что проверить у врача и что помогает в быту.</p></div></a><a class="art" href="/endo/psihicheskoe-zdorove/"><div class="tile"><picture><source type="image/webp" srcset="/img/endo/psihicheskoe-zdorove_16x9_640.webp?v=f330f86e 640w, /img/endo/psihicheskoe-zdorove_16x9_1024.webp?v=6b06bd65 1024w, /img/endo/psihicheskoe-zdorove_16x9_1600.webp?v=952cf873 1600w" sizes="(max-width:700px) 92vw, 420px"><img src="/img/endo/psihicheskoe-zdorove_16x9.jpg?v=f5b22a2a" alt="" loading="lazy" width="1600" height="900" decoding="async"></picture></div><div class="body"><h3>Эндометриоз и психическое здоровье: тревога и депрессия</h3><p>Почему при эндометриозе чаще бывают тревога и депрессия, почему это не «всё в голове», когда идти к психотерапевту и где найти срочную помощь.</p></div></a></div></section>
 
     </article>
   </div>
@@ -210,5 +212,6 @@
     <div class="big-word" aria-hidden="true">Doctor Union</div>
   </div>
 </footer>
+<script>(function(){var b=document.querySelector(".menu-btn"),n=document.getElementById("nav-links");if(!b||!n)return;b.hidden=false;function set(o){b.setAttribute("aria-expanded",o?"true":"false");n.classList.toggle("open",o)}b.addEventListener("click",function(){set(b.getAttribute("aria-expanded")!=="true")});n.addEventListener("click",function(e){if(e.target.closest("a"))set(false)});document.addEventListener("keydown",function(e){if(e.key==="Escape"&&n.classList.contains("open")){set(false);b.focus()}})})();</script>
 </body>
 </html>
