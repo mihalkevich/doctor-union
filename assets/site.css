@@ -280,3 +280,28 @@ a.art:hover{background:var(--bg-3)}
 .donate>div{display:grid;gap:10px;max-width:46ch;min-width:0}
 .donate p{font-size:15px!important;color:var(--muted);margin:0}
 .prose.wide>p,.prose.wide>h2{max-width:720px}
+
+.oq{border:1px solid var(--line);border-radius:20px;padding:20px;margin:24px 0}
+.oq fieldset{border:0;margin:0;padding:0}
+.oq legend{font-weight:600;font-size:1.1em;margin-bottom:8px;padding:0}
+.oq-q{display:flex;gap:12px;align-items:flex-start;min-height:44px;padding:10px 4px;border-top:1px solid var(--line);cursor:pointer;font:inherit;text-transform:none;letter-spacing:normal;color:inherit}
+.oq-q input{width:24px;height:24px;margin:2px 0 0;flex:none;accent-color:#E58A6B;cursor:pointer}
+.oq-q input:focus-visible{outline:3px solid #E58A6B;outline-offset:3px}
+.oq-q small{display:block;opacity:.7;font-size:.82em;margin-top:2px}
+.oq-sum{margin:16px 0 8px;font-weight:600}
+.oq-btns{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+.oq-btns button{min-height:44px;font:inherit;cursor:pointer}
+.oq-note{font-size:.9em;opacity:.75;margin-top:8px}
+#oq-sheet{display:none}
+@media print{
+html.oq-js body>*:not(#oq-sheet){display:none!important}
+html.oq-js #oq-sheet{display:block;font:10.5pt/1.35 Georgia,serif;color:#000}
+@page{size:A4;margin:14mm}
+#oq-sheet h1{font-size:15pt;margin:0 0 4pt}
+#oq-sheet ol{margin:6pt 0;padding-left:0;list-style:none}
+#oq-sheet li{margin:0 0 4pt}
+#oq-sheet li small{display:block;font-size:8pt;color:#444;padding-left:1.6em}
+#oq-sheet .ln{border-bottom:1px solid #000;height:18pt}
+#oq-sheet .box{border:1px solid #000;padding:5pt 7pt;margin-top:8pt}
+#oq-sheet .foot{font-size:8.5pt;margin-top:8pt}
+}
