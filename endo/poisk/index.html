@@ -98,7 +98,7 @@ function run(q){
   res.slice(0,40).forEach(function(r){var p=r[1],li=document.createElement("li");li.innerHTML='<a href="'+p.u+'">'+esc(p.t)+'</a><p>'+esc(p.d)+'</p>';ol.appendChild(li)});
 }
 function go(q,push){
-  if(!data){st.textContent="Загружаю список статей…";fetch("/endo/search.json?v=ec0f1fe236").then(function(r){return r.json()}).then(function(j){data=j;run(q)}).catch(function(){st.textContent="Не удалось загрузить поиск. Обновите страницу или откройте список всех статей."});}
+  if(!data){st.textContent="Загружаю список статей…";fetch("/endo/search.json?v=39c3e225b8").then(function(r){return r.json()}).then(function(j){data=j;run(q)}).catch(function(){st.textContent="Не удалось загрузить поиск. Обновите страницу или откройте список всех статей."});}
   else run(q);
   if(push){try{history.replaceState(null,"",q?"?q="+encodeURIComponent(q):location.pathname)}catch(e){}}
 }
