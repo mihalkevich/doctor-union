@@ -275,7 +275,7 @@ URL: https://doctor-union.onrender.com/endo/chto-takoe-endometrioz/
 | Сколько это людей в мире | около 190 млн | ВОЗ |
 | Доля эндометриоза среди женщин с бесплодием | 25–50% | ВОЗ |
 | Средний срок до диагноза | от 4 до 12 лет | ВОЗ |
-| Средний срок до диагноза в Великобритании (опрос 2023, 4 371 человек) | 8 лет 10 месяцев | Endometriosis UK |
+| Средний срок от первого визита к врачу общей практики до диагноза в Великобритании (опрос 2025, 3 075 человек) | 9 лет 4 месяца | Endometriosis UK |
 | С какой глубины очаг считают глубоким | более 5 мм под брюшиной | ESHRE |
 | В каком возрасте встречается | от первых месячных до менопаузы | ВОЗ |
 
@@ -333,7 +333,7 @@ URL: https://doctor-union.onrender.com/endo/chto-takoe-endometrioz/
 - ESHRE. [Guideline: endometriosis, 2022](https://pubmed.ncbi.nlm.nih.gov/35350465/) ([полный текст, PDF](https://www.bsge.org.uk/wp-content/uploads/2022/02/ESHRE-GUIDELINE-ENDOMETRIOSIS-2022.pdf))
 - ESHRE. [Endometriosis: guideline for patients, 2022 (PDF)](https://cgf.cochrane.org/sites/cgf.cochrane.org/files/public/uploads/eshre_endometriosis_patient_guideline_2022.pdf)
 - NICE. [Endometriosis: diagnosis and management (NG73), контекст](https://www.nice.org.uk/guidance/ng73/chapter/Context)
-- Endometriosis UK. [Опрос о сроках диагностики, 2023 (EMJ)](https://www.emjreviews.com/reproductive-health/news/deteriorating-diagnosis-times-for-endometriosis/)
+- Endometriosis UK. [The State of Endometriosis Care (PDF, 2026; опрос сентября–октября 2025)](https://www.endometriosis-uk.org/sites/default/files/2026-02/Endometriosis%20-%20The%20State%20of%20Endometriosis%20Care%20Report.pdf)
 - [Leeds Teaching Hospitals NHS Trust, «Endometrial hyperplasia»](https://www.leedsth.nhs.uk/patients/resources/endometrial-hyperplasia-2/)
 - [Rei C., Williams T., Feloney M. Endometriosis in a Man as a Rare Source of Abdominal Pain: A Case Report and Review of the Literature. Case Rep Obstet Gynecol, 2018](https://doi.org/10.1155/2018/2083121)
 
@@ -341,7 +341,7 @@ URL: https://doctor-union.onrender.com/endo/chto-takoe-endometrioz/
 
 ---
 
-*Обновлено 17 октября 2026. Подготовила редакция «Эндо без тайн» по рекомендациям ESHRE, NICE и ВОЗ. Медицинская проверка врачом: в процессе.*
+*Обновлено 18 октября 2026. Подготовила редакция «Эндо без тайн» по рекомендациям ESHRE, NICE и ВОЗ. Медицинская проверка врачом: в процессе.*
 
 *Статья носит информационный характер и не заменяет консультацию врача. Доктор Анна — AI-персонаж проекта «Эндо без тайн», а не живой врач.*
 
@@ -568,7 +568,7 @@ ESHRE допускает и другой путь: при типичных си�
 
 ## Почему диагноз ставят так долго?
 
-По данным ВОЗ, средний срок до диагноза — от 4 до 12 лет. В Великобритании опрос благотворительной организации Endometriosis UK в 2023 году (4 371 человек с диагнозом) показал в среднем 8 лет и 10 месяцев от первых симптомов до диагноза, и этот срок вырос по сравнению с 2020 годом.
+По данным ВОЗ, средний срок до диагноза — от 4 до 12 лет. В Великобритании опрос благотворительной организации Endometriosis UK (сентябрь–октябрь 2025 года, 3 075 человек с диагнозом) показал в среднем 9 лет и 4 месяца от первого визита к врачу общей практики с симптомами до диагноза; в 2023 году этот срок составлял 8 лет и 10 месяцев, в 2020 году — 8 лет.
 
 Причин несколько:
 
@@ -624,7 +624,7 @@ ESHRE допускает и другой путь: при типичных си�
 - Yu E.H., Joo J.K. [Commentary on the new 2022 ESHRE endometriosis guidelines. Clin Exp Reprod Med, 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC9732073)
 - NICE. [Endometriosis: diagnosis and management (NG73), рекомендации](https://www.nice.org.uk/guidance/ng73/chapter/Recommendations)
 - ВОЗ. [Эндометриоз: информационный бюллетень](https://www.who.int/ru/news-room/fact-sheets/detail/endometriosis)
-- Endometriosis UK. [Опрос о сроках диагностики, 2023 (EMJ)](https://www.emjreviews.com/reproductive-health/news/deteriorating-diagnosis-times-for-endometriosis/)
+- Endometriosis UK. [The State of Endometriosis Care (PDF, 2026; опрос сентября–октября 2025)](https://www.endometriosis-uk.org/sites/default/files/2026-02/Endometriosis%20-%20The%20State%20of%20Endometriosis%20Care%20Report.pdf)
 - Charkhchi P. и соавт. [CA125 and Ovarian Cancer: A Comprehensive Review. Cancers, 2020](https://pubmed.ncbi.nlm.nih.gov/33322519/)
 - [ISUOG, VISUOG «Adenomyosis»](https://www.isuog.org/education/visuog/gynecology/endometriosis/adenomyosis.html)
 - [Yavuz O. и соавт. Prediction of adenomyosis according to revised definitions of MUSA features. Front Med, 2024;11:1387515](https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2024.1387515/full)
@@ -633,7 +633,7 @@ ESHRE допускает и другой путь: при типичных си�
 
 ---
 
-*Обновлено 17 октября 2026. Подготовила редакция «Эндо без тайн» по рекомендациям ESHRE, NICE и ВОЗ. Медицинская проверка врачом: в процессе.*
+*Обновлено 18 октября 2026. Подготовила редакция «Эндо без тайн» по рекомендациям ESHRE, NICE и ВОЗ. Медицинская проверка врачом: в процессе.*
 
 *Статья носит информационный характер и не заменяет консультацию врача. Мира — AI-персонаж проекта «Эндо без тайн».*
 
@@ -641,13 +641,13 @@ ESHRE допускает и другой путь: при типичных си�
 # Что сказать гинекологу, чтобы вас услышали: чек-лист при подозрении на эндометриоз
 
 URL: https://doctor-union.onrender.com/endo/chek-list-k-vrachu/
-Обновлено: 2026-10-17
+Обновлено: 2026-10-18
 
 **Коротко.** Опишите боль фактами: насколько сильно болит по шкале от 0 до 10, в какие дни цикла, сколько обезболивающих вы принимаете и что из-за боли приходится отменять. Принесите дневник боли за 2–3 цикла и список вопросов, прямо скажите: «Я хочу исключить эндометриоз». Британское руководство NICE отмечает, что дневник боли и симптомов помогает разговору с врачом. Если боль сохраняется, а ответа нет, можно попросить направление к специалисту или прийти за вторым мнением.
 
 ## Почему жалобы на боль так часто не слышат?
 
-Не потому, что вы плохо объясняете. Боль при месячных долго считали нормой, симптомы эндометриоза похожи на другие болезни, а на приём у врача мало времени. По данным ВОЗ, от появления эндометриоза до диагноза в среднем проходит от 4 до 12 лет. В опросе Endometriosis UK 2023 года среднее время до диагноза в Великобритании составило 8 лет и 10 месяцев, а 47% участниц были у врача общей практики 10 и более раз.
+Не потому, что вы плохо объясняете. Боль при месячных долго считали нормой, симптомы эндометриоза похожи на другие болезни, а на приём у врача мало времени. По данным ВОЗ, от появления эндометриоза до диагноза в среднем проходит от 4 до 12 лет. В опросе Endometriosis UK (сентябрь–октябрь 2025 года) среднее время от первого визита к врачу общей практики до диагноза в Великобритании составило 9 лет и 4 месяца, а прежде чем врач общей практики упоминал эндометриоз, проходило в среднем около 10 приёмов с симптомами.
 
 Хорошая подготовка не заменяет внимательного врача, но заметно облегчает разговор: за короткий приём врач получает картину, которую иначе пришлось бы собирать несколько визитов.
 
@@ -755,12 +755,12 @@ URL: https://doctor-union.onrender.com/endo/chek-list-k-vrachu/
 - ESHRE. [Guideline: endometriosis, 2022](https://pubmed.ncbi.nlm.nih.gov/35350465/)
 - ESHRE. [Руководство для пациенток, 2022 (PDF, англ.)](https://cgf.cochrane.org/sites/cgf.cochrane.org/files/public/uploads/eshre_endometriosis_patient_guideline_2022.pdf)
 - Endometriosis UK. [Getting a diagnosis (PDF, 2025)](https://endometriosis-uk.org/sites/default/files/2025-01/Getting%20a%20diagnosis%20Jan%202025%20%283%29.pdf)
-- Endometriosis UK. [Опрос о сроках диагностики, 2023 (EMJ)](https://www.emjreviews.com/reproductive-health/news/deteriorating-diagnosis-times-for-endometriosis/)
+- Endometriosis UK. [The State of Endometriosis Care (PDF, 2026; опрос сентября–октября 2025)](https://www.endometriosis-uk.org/sites/default/files/2026-02/Endometriosis%20-%20The%20State%20of%20Endometriosis%20Care%20Report.pdf)
 
 
 ---
 
-*Обновлено 17 октября 2026. Подготовила редакция «Эндо без тайн» по рекомендациям ESHRE, NICE и ВОЗ. Медицинская проверка врачом: в процессе.*
+*Обновлено 18 октября 2026. Подготовила редакция «Эндо без тайн» по рекомендациям ESHRE, NICE и ВОЗ. Медицинская проверка врачом: в процессе.*
 
 *Статья носит информационный характер и не заменяет консультацию врача. Мира — AI-персонаж проекта «Эндо без тайн».*
 
@@ -2208,7 +2208,7 @@ URL: https://doctor-union.onrender.com/endo/prichiny/
 # Стадии эндометриоза: что значат I–IV и почему стадия ≠ сила боли
 
 URL: https://doctor-union.onrender.com/endo/stadii/
-Обновлено: 2026-10-17
+Обновлено: 2026-10-18
 
 **Коротко.** Стадия эндометриоза I–IV — это оценка того, сколько очагов, кист и спаек врач увидел в малом тазу, обычно по шкале rASRM. Она описывает распространённость болезни, но не силу боли: по рекомендациям ESHRE 2022, выраженность боли в целом плохо совпадает со стадией по rASRM. Поэтому I стадия не значит «несерьёзно», а IV — не приговор. Лечение подбирают по симптомам, планам на беременность и находкам обследования, а не по одной цифре.
 
@@ -2362,7 +2362,7 @@ EFI (Endometriosis Fertility Index, индекс фертильности при
 ## Источники
 
 - ESHRE. [Guideline: endometriosis, 2022](https://pubmed.ncbi.nlm.nih.gov/35350465/) ([полный текст, PDF](https://www.bsge.org.uk/wp-content/uploads/2022/02/ESHRE-GUIDELINE-ENDOMETRIOSIS-2022.pdf))
-- Минздрав России. [Клинические рекомендации «Эндометриоз», 2024](https://pravo.ppt.ru/klinicheskie-rekomendatsii/303180)
+- Клинические рекомендации «Эндометриоз», Минздрав России, 2024, ID 259. Официальный [рубрикатор клинических рекомендаций Минздрава России](https://cr.minzdrav.gov.ru/) (поиск по ID 259); текст опубликован: [Акушерство и гинекология, 2025, № 8 (приложение)](https://aig-journal.ru/articles/Endometrioz-Klinicheskie-rekomendacii.html), DOI 10.18565/aig.2025.231
 - Canis M. и соавт. Revised American Society for Reproductive Medicine classification of endometriosis: 1996. [Fertil Steril, 1997;67(5):817–821](https://doi.org/10.1016/S0015-0282(97)81391-X)
 - Keckstein J. et al. [The #Enzian classification for the diagnosis and surgery of endometriosis: a narrative review. Gynecology and Pelvic Medicine, 2021](https://gpm.amegroups.org/article/view/7815/html)
 - Marchetti M. et al. [Ultrasound-based preoperative evaluation of the Endometriosis Fertility Index. J Clin Med, 2024](https://www.mdpi.com/2077-0383/13/5/1488)
@@ -2373,7 +2373,7 @@ EFI (Endometriosis Fertility Index, индекс фертильности при
 
 ---
 
-*Обновлено 17 октября 2026. Подготовила редакция «Эндо без тайн» по рекомендациям ESHRE, NICE и ВОЗ. Медицинская проверка врачом: в процессе.*
+*Обновлено 18 октября 2026. Подготовила редакция «Эндо без тайн» по рекомендациям ESHRE, NICE и ВОЗ. Медицинская проверка врачом: в процессе.*
 
 *Статья носит информационный характер и не заменяет консультацию врача. Доктор Анна — AI-персонаж проекта «Эндо без тайн», а не живой врач.*
 
@@ -2708,7 +2708,7 @@ URL: https://doctor-union.onrender.com/endo/voprosy/
 # Словарь эндометриоза: 50 терминов простыми словами
 
 URL: https://doctor-union.onrender.com/endo/glossarij/
-Обновлено: 2026-10-17
+Обновлено: 2026-10-18
 
 **Коротко.** Это словарь слов, которые встречаются в заключениях УЗИ, выписках и разговорах с гинекологом при эндометриозе и аденомиозе. Каждое определение занимает 1–3 предложения и опирается на рекомендации ESHRE, NICE и ВОЗ. Термины идут по алфавиту: сначала русские, затем латинские сокращения. Если по термину есть подробная статья, ссылка стоит сразу под определением.
 
@@ -2964,7 +2964,7 @@ URL: https://doctor-union.onrender.com/endo/glossarij/
 - ВОЗ. [Эндометриоз: информационный бюллетень](https://www.who.int/ru/news-room/fact-sheets/detail/endometriosis)
 - ВОЗ. [Бесплодие: информационный бюллетень](https://www.who.int/ru/news-room/fact-sheets/detail/infertility)
 - ВОЗ. [Менопауза: информационный бюллетень](https://www.who.int/ru/news-room/fact-sheets/detail/menopause)
-- Минздрав России. [Клинические рекомендации «Эндометриоз», 2024](https://pravo.ppt.ru/klinicheskie-rekomendatsii/303180)
+- Клинические рекомендации «Эндометриоз», Минздрав России, 2024, ID 259. Официальный [рубрикатор клинических рекомендаций Минздрава России](https://cr.minzdrav.gov.ru/) (поиск по ID 259); текст опубликован: [Акушерство и гинекология, 2025, № 8 (приложение)](https://aig-journal.ru/articles/Endometrioz-Klinicheskie-rekomendacii.html), DOI 10.18565/aig.2025.231
 - Canis M. и соавт. Revised American Society for Reproductive Medicine classification of endometriosis: 1996. [Fertil Steril, 1997;67(5):817–821](https://doi.org/10.1016/S0015-0282(97)81391-X)
 - Keckstein J. и соавт. [The #Enzian classification for the diagnosis and surgery of endometriosis: a narrative review. Gynecology and Pelvic Medicine, 2021](https://gpm.amegroups.org/article/view/7815/html)
 - Marchetti M. и соавт. [Ultrasound-based preoperative evaluation of the Endometriosis Fertility Index. J Clin Med, 2024](https://www.mdpi.com/2077-0383/13/5/1488)
@@ -2973,7 +2973,7 @@ URL: https://doctor-union.onrender.com/endo/glossarij/
 
 ---
 
-*Обновлено 17 октября 2026. Подготовила редакция «Эндо без тайн» по рекомендациям ESHRE, NICE и ВОЗ. Медицинская проверка врачом: в процессе.*
+*Обновлено 18 октября 2026. Подготовила редакция «Эндо без тайн» по рекомендациям ESHRE, NICE и ВОЗ. Медицинская проверка врачом: в процессе.*
 
 *Статья носит информационный характер и не заменяет консультацию врача. Мира — AI-персонаж проекта «Эндо без тайн».*
 
