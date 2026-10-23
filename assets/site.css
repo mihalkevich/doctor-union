@@ -244,6 +244,16 @@ footer{border-top:1px solid var(--line);padding-block:56px 40px}
   .tile img,.btn,summary .pm,a.art,.dir{transition:none}
 }
 
+/* /endo/kratko/ feed */
+.kr-feed{display:grid;gap:28px;margin-top:28px}
+.kr-card{border-radius:var(--r);overflow:hidden;background:var(--bg-2);padding-block:0}
+.kr-card .kr-img img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover}
+.kr-card .body{padding:22px 24px 24px}
+.kr-card h2{margin:.35em 0 .6em}
+.kr-card ul.kr-checks{list-style:none;padding-left:0}
+.kr-more{margin-top:1.2em}
+.kr-sig{font-size:.88em;color:var(--muted);font-style:italic;margin-top:1em}
+@media (max-width:600px){.kr-card .body{padding:18px 16px 20px}}
 /* inner pages */
 .crumbs{display:flex;flex-wrap:wrap;gap:8px;font:500 12px/1.4 var(--f-mono);letter-spacing:.04em;color:var(--muted);margin-bottom:22px}
 .crumbs a{color:var(--muted);text-decoration:none}.crumbs a:hover{color:var(--accent)}
